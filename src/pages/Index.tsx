@@ -125,7 +125,10 @@ const Index = () => {
               </div>
             </Card>
 
-            <DocumentUpload onFilesSelected={handleFilesSelected} />
+      <DocumentUpload 
+        onFilesSelected={handleFilesSelected} 
+        selectedLanguage={selectedLanguage}
+      />
 
             <LanguageSelector
               selectedLanguage={selectedLanguage}
