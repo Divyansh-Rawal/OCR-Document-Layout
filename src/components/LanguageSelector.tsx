@@ -20,7 +20,7 @@ const languages = [
 
 export const LanguageSelector = ({ selectedLanguage, onLanguageChange }: LanguageSelectorProps) => {
   return (
-    <Card className="p-6">
+    <Card className="p-6 animate-fade-in">
       <div className="space-y-3">
         <Label htmlFor="language" className="text-base font-semibold">
           Document Language
@@ -29,7 +29,7 @@ export const LanguageSelector = ({ selectedLanguage, onLanguageChange }: Languag
           Select the primary language of your documents for optimal OCR accuracy
         </p>
         <Select value={selectedLanguage} onValueChange={onLanguageChange}>
-          <SelectTrigger id="language" className="w-full">
+          <SelectTrigger id="language" className="w-full transition-all duration-200 hover:border-primary/50">
             <SelectValue placeholder="Select language" />
           </SelectTrigger>
           <SelectContent>

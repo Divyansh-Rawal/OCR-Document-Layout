@@ -54,10 +54,10 @@ export const ResultsDisplay = ({ results }: ResultsDisplayProps) => {
   }
 
   return (
-    <Card className="p-6">
+    <Card className="p-6 animate-scale-in">
       <div className="flex items-center justify-between mb-6">
         <h3 className="text-lg font-semibold">Processing Results</h3>
-        <Button onClick={handleDownloadJSON} variant="outline" size="sm">
+        <Button onClick={handleDownloadJSON} variant="outline" size="sm" className="transition-all duration-200 hover:scale-105">
           <Download className="w-4 h-4 mr-2" />
           Download JSON
         </Button>
@@ -65,7 +65,11 @@ export const ResultsDisplay = ({ results }: ResultsDisplayProps) => {
 
       <div className="space-y-6">
         {results.map((result, index) => (
-          <Card key={index} className="p-4 bg-muted/50">
+          <Card 
+            key={index} 
+            className="p-4 bg-muted/50 animate-fade-in hover:shadow-lg transition-all duration-300 hover:scale-102"
+            style={{ animationDelay: `${index * 100}ms` }}
+          >
             <div className="space-y-4">
               <div className="flex items-start justify-between">
                 <div>
@@ -76,6 +80,7 @@ export const ResultsDisplay = ({ results }: ResultsDisplayProps) => {
                   variant="ghost"
                   size="sm"
                   onClick={() => handleCopyText(result.fullText)}
+                  className="transition-all duration-200 hover:scale-110"
                 >
                   {copied ? (
                     <CheckCircle2 className="w-4 h-4 text-success" />

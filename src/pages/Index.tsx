@@ -111,7 +111,7 @@ const Index = () => {
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Left Column - Upload & Config */}
           <div className="lg:col-span-2 space-y-6">
-            <Card className="p-6 bg-card/50 backdrop-blur">
+            <Card className="p-6 bg-card/50 backdrop-blur animate-fade-in">
               <div className="flex items-start gap-4 mb-6">
                 <Sparkles className="w-5 h-5 text-primary mt-1" />
                 <div>
@@ -135,11 +135,11 @@ const Index = () => {
               onLanguageChange={setSelectedLanguage}
             />
 
-            <div className="flex gap-3">
+            <div className="flex gap-3 animate-fade-in">
               <Button 
                 onClick={simulateProcessing} 
                 disabled={isProcessing || selectedFiles.length === 0}
-                className="flex-1"
+                className="flex-1 transition-all duration-300 hover:scale-105"
                 size="lg"
               >
                 {isProcessing ? "Processing..." : "Start Processing"}
@@ -149,6 +149,7 @@ const Index = () => {
                   onClick={handleReset} 
                   variant="outline"
                   size="lg"
+                  className="transition-all duration-300 hover:scale-105 animate-fade-in"
                 >
                   Reset
                 </Button>
@@ -168,7 +169,7 @@ const Index = () => {
         </div>
 
         {/* Info Footer */}
-        <Card className="mt-8 p-6 bg-muted/50">
+        <Card className="mt-8 p-6 bg-muted/50 animate-fade-in">
           <h3 className="font-semibold mb-3">Technical Implementation Notes</h3>
           <ul className="space-y-2 text-sm text-muted-foreground">
             <li>• <strong>Layout Detection:</strong> Uses YOLO model (yolov12l-doclaynet.pt) for detecting text regions</li>

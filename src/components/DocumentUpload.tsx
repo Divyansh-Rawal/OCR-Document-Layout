@@ -74,13 +74,13 @@ export const DocumentUpload = ({
   };
 
   return (
-    <div className="w-full space-y-4">
+    <div className="w-full space-y-4 animate-fade-in">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Card
-          className={`relative border-2 border-dashed transition-all duration-200 ${
+          className={`relative border-2 border-dashed transition-all duration-300 ${
             dragActive 
-              ? "border-primary bg-primary/5" 
-              : "border-border hover:border-primary/50"
+              ? "border-primary bg-primary/5 scale-105 shadow-lg" 
+              : "border-border hover:border-primary/50 hover:scale-102"
           }`}
           onDragEnter={handleDrag}
           onDragLeave={handleDrag}
@@ -89,7 +89,7 @@ export const DocumentUpload = ({
         >
           <label htmlFor="file-upload" className="cursor-pointer">
             <div className="flex flex-col items-center justify-center py-12 px-4">
-              <Upload className="w-12 h-12 text-muted-foreground mb-4" />
+              <Upload className={`w-12 h-12 text-muted-foreground mb-4 transition-transform duration-300 ${dragActive ? 'scale-110' : ''}`} />
               <h3 className="text-lg font-semibold mb-2">Upload Files</h3>
               <p className="text-sm text-muted-foreground mb-4 text-center">
                 Drag and drop your files here, or click to browse
@@ -109,7 +109,7 @@ export const DocumentUpload = ({
           </label>
         </Card>
 
-        <Card className="relative border-2 border-dashed transition-colors border-border hover:border-primary/50">
+        <Card className="relative border-2 border-dashed transition-all duration-300 border-border hover:border-primary/50 hover:scale-102 hover:shadow-md">
           <label htmlFor="folder-upload" className="cursor-pointer">
             <div className="flex flex-col items-center justify-center py-12 px-4">
               <Folder className="w-12 h-12 text-muted-foreground mb-4" />
@@ -134,7 +134,7 @@ export const DocumentUpload = ({
       </div>
 
       {selectedFiles.length > 0 && (
-        <div className="space-y-2">
+        <div className="space-y-2 animate-fade-in">
           <div className="flex items-center justify-between">
             <h4 className="text-sm font-medium">Selected Files ({selectedFiles.length})</h4>
             {selectedLanguage && (
@@ -145,7 +145,11 @@ export const DocumentUpload = ({
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             {selectedFiles.map((file, index) => (
-              <Card key={index} className="p-3">
+              <Card 
+                key={index} 
+                className="p-3 hover:bg-accent/5 transition-all duration-200 hover:scale-102 animate-fade-in"
+                style={{ animationDelay: `${index * 50}ms` }}
+              >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3 flex-1 min-w-0">
                     <FileText className="w-5 h-5 text-primary flex-shrink-0" />
