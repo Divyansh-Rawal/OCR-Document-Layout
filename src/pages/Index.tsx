@@ -88,22 +88,16 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-background to-primary/5 relative overflow-hidden">
-      {/* Animated background elements */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-float" />
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float" style={{ animationDelay: "1s" }} />
-      </div>
-      
+    <div className="min-h-screen bg-background">
       {/* Header */}
-      <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 relative z-10">
+      <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto px-4 py-6">
-          <div className="flex items-center gap-3 animate-slide-up">
-            <div className="p-2 bg-primary/10 rounded-lg animate-glow">
-              <FileText className="w-6 h-6 text-primary animate-float" />
+          <div className="flex items-center gap-3 animate-fade-in">
+            <div className="p-2 bg-primary/10 rounded-lg">
+              <FileText className="w-6 h-6 text-primary" />
             </div>
             <div>
-              <h1 className="text-2xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-pulse-glow">
+              <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                 Document OCR Pipeline
               </h1>
               <p className="text-sm text-muted-foreground">
@@ -115,23 +109,20 @@ const Index = () => {
       </header>
 
       {/* Main Content */}
-      <main className="container mx-auto px-4 py-8 relative z-10">
+      <main className="container mx-auto px-4 py-8">
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Left Column - Upload & Config */}
           <div className="lg:col-span-2 space-y-6">
-            <Card className="p-6 bg-card/50 backdrop-blur animate-slide-up border-primary/20 relative overflow-hidden hover:shadow-[0_0_30px_rgba(168,85,247,0.15)] transition-all duration-500">
-              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent animate-shimmer" style={{ backgroundSize: "200% 100%" }} />
-              <div className="relative z-10">
-                <div className="flex items-start gap-4 mb-6">
-                  <Sparkles className="w-5 h-5 text-primary mt-1 animate-pulse-glow" />
-                  <div>
-                    <h2 className="text-xl font-semibold mb-2">Get Started</h2>
-                    <p className="text-sm text-muted-foreground">
-                      This UI demonstrates the OCR pipeline from your uploaded Python code. 
-                      Upload documents, select the language, and process them through layout detection 
-                      and text extraction stages.
-                    </p>
-                  </div>
+            <Card className="p-6 animate-slide-up">
+              <div className="flex items-start gap-4 mb-6">
+                <Sparkles className="w-5 h-5 text-primary mt-1" />
+                <div>
+                  <h2 className="text-xl font-semibold mb-2">Get Started</h2>
+                  <p className="text-sm text-muted-foreground">
+                    This UI demonstrates the OCR pipeline from your uploaded Python code. 
+                    Upload documents, select the language, and process them through layout detection 
+                    and text extraction stages.
+                  </p>
                 </div>
               </div>
             </Card>
@@ -146,11 +137,11 @@ const Index = () => {
               onLanguageChange={setSelectedLanguage}
             />
 
-            <div className="flex gap-3 animate-fade-in">
+            <div className="flex gap-3">
               <Button 
                 onClick={simulateProcessing} 
                 disabled={isProcessing || selectedFiles.length === 0}
-                className="flex-1 transition-all duration-300 hover:scale-110 hover:shadow-[0_0_30px_rgba(168,85,247,0.3)] animate-glow"
+                className="flex-1 transition-all duration-200"
                 size="lg"
               >
                 {isProcessing ? "Processing..." : "Start Processing"}
@@ -160,7 +151,7 @@ const Index = () => {
                   onClick={handleReset} 
                   variant="outline"
                   size="lg"
-                  className="transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(168,85,247,0.2)] animate-fade-in border-primary/20"
+                  className="transition-all duration-200"
                 >
                   Reset
                 </Button>
@@ -180,21 +171,18 @@ const Index = () => {
         </div>
 
         {/* Info Footer */}
-        <Card className="mt-8 p-6 bg-gradient-to-r from-muted/50 via-muted/30 to-muted/50 animate-fade-in border-primary/10 relative overflow-hidden hover:shadow-[0_0_30px_rgba(168,85,247,0.15)] transition-all duration-500">
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent animate-shimmer" style={{ backgroundSize: "200% 100%" }} />
-          <div className="relative z-10">
-            <h3 className="font-semibold mb-3 flex items-center gap-2">
-              <span>Technical Implementation Notes</span>
-              <div className="h-1 flex-1 bg-gradient-to-r from-primary/50 via-primary/20 to-transparent rounded-full max-w-[200px]" />
-            </h3>
-            <ul className="space-y-2 text-sm text-muted-foreground">
-              <li className="hover:text-foreground transition-colors duration-300">• <strong className="text-primary">Layout Detection:</strong> Uses YOLO model (yolov12l-doclaynet.pt) for detecting text regions</li>
-              <li className="hover:text-foreground transition-colors duration-300">• <strong className="text-primary">OCR Engine:</strong> Tesseract OCR for multi-language text extraction</li>
-              <li className="hover:text-foreground transition-colors duration-300">• <strong className="text-primary">Preprocessing:</strong> Automatic tilt correction using Hough Line Transform</li>
-              <li className="hover:text-foreground transition-colors duration-300">• <strong className="text-primary">Post-processing:</strong> Language-specific text cleaning and error correction</li>
-              <li className="hover:text-foreground transition-colors duration-300">• <strong className="text-primary">Backend Integration:</strong> Requires Python backend with YOLO and Tesseract dependencies</li>
-            </ul>
-          </div>
+        <Card className="mt-8 p-6 bg-muted/30">
+          <h3 className="font-semibold mb-3 flex items-center gap-2">
+            <span>Technical Implementation Notes</span>
+            <div className="h-0.5 w-24 bg-primary rounded-full" />
+          </h3>
+          <ul className="space-y-2 text-sm text-muted-foreground">
+            <li>• <strong className="text-primary">Layout Detection:</strong> Uses YOLO model (yolov12l-doclaynet.pt) for detecting text regions</li>
+            <li>• <strong className="text-primary">OCR Engine:</strong> Tesseract OCR for multi-language text extraction</li>
+            <li>• <strong className="text-primary">Preprocessing:</strong> Automatic tilt correction using Hough Line Transform</li>
+            <li>• <strong className="text-primary">Post-processing:</strong> Language-specific text cleaning and error correction</li>
+            <li>• <strong className="text-primary">Backend Integration:</strong> Requires Python backend with YOLO and Tesseract dependencies</li>
+          </ul>
         </Card>
       </main>
     </div>

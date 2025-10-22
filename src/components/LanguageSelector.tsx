@@ -20,23 +20,22 @@ const languages = [
 
 export const LanguageSelector = ({ selectedLanguage, onLanguageChange }: LanguageSelectorProps) => {
   return (
-    <Card className="p-6 animate-slide-up border-primary/20 relative overflow-hidden group hover:shadow-[0_0_30px_rgba(168,85,247,0.15)] transition-all duration-500">
-      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent animate-shimmer opacity-0 group-hover:opacity-100" style={{ backgroundSize: "200% 100%" }} />
-      <div className="space-y-3 relative z-10">
+    <Card className="p-6 animate-slide-up">
+      <div className="space-y-3">
         <Label htmlFor="language" className="text-base font-semibold flex items-center gap-2">
           <span>Document Language</span>
-          <div className="h-1 flex-1 bg-gradient-to-r from-primary/50 via-primary/20 to-transparent rounded-full max-w-[100px]" />
+          <div className="h-0.5 w-16 bg-primary rounded-full" />
         </Label>
-        <p className="text-sm text-muted-foreground group-hover:text-foreground/80 transition-colors duration-300">
+        <p className="text-sm text-muted-foreground">
           Select the primary language of your documents for optimal OCR accuracy
         </p>
         <Select value={selectedLanguage} onValueChange={onLanguageChange}>
-          <SelectTrigger id="language" className="w-full transition-all duration-300 hover:border-primary/50 hover:shadow-lg hover:scale-[1.02] border-primary/20">
+          <SelectTrigger id="language" className="w-full transition-all duration-200">
             <SelectValue placeholder="Select language" />
           </SelectTrigger>
           <SelectContent>
             {languages.map((lang) => (
-              <SelectItem key={lang.code} value={lang.code} className="hover:bg-primary/10 transition-colors duration-200">
+              <SelectItem key={lang.code} value={lang.code}>
                 <div className="flex items-center gap-2">
                   <span>{lang.name}</span>
                   <span className="text-muted-foreground text-sm">({lang.native})</span>

@@ -77,21 +77,20 @@ export const DocumentUpload = ({
     <div className="w-full space-y-4 animate-fade-in">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Card
-          className={`relative border-2 border-dashed transition-all duration-500 overflow-hidden group ${
+          className={`relative border-2 border-dashed transition-all duration-200 group ${
             dragActive 
-              ? "border-primary bg-primary/10 scale-[1.02] shadow-[0_0_40px_rgba(168,85,247,0.3)] animate-glow" 
-              : "border-border hover:border-primary/50 hover:scale-[1.02]"
+              ? "border-primary bg-primary/10" 
+              : "border-border hover:border-primary/50"
           }`}
           onDragEnter={handleDrag}
           onDragLeave={handleDrag}
           onDragOver={handleDrag}
           onDrop={handleDrop}
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent animate-shimmer opacity-0 group-hover:opacity-100 transition-opacity duration-500" style={{ backgroundSize: "200% 100%" }} />
-          <label htmlFor="file-upload" className="cursor-pointer relative z-10">
+          <label htmlFor="file-upload" className="cursor-pointer">
             <div className="flex flex-col items-center justify-center py-12 px-4">
-              <Upload className={`w-12 h-12 text-primary mb-4 transition-transform duration-300 animate-float group-hover:scale-110 ${dragActive ? 'scale-110' : ''}`} />
-              <h3 className="text-lg font-semibold mb-2 group-hover:text-primary transition-colors duration-300">Upload Files</h3>
+              <Upload className={`w-12 h-12 text-primary mb-4 transition-transform duration-200 group-hover:scale-110 ${dragActive ? 'scale-110' : ''}`} />
+              <h3 className="text-lg font-semibold mb-2 group-hover:text-primary transition-colors duration-200">Upload Files</h3>
               <p className="text-sm text-muted-foreground mb-4 text-center">
                 Drag and drop your files here, or click to browse
               </p>
@@ -110,12 +109,11 @@ export const DocumentUpload = ({
           </label>
         </Card>
 
-        <Card className="relative border-2 border-dashed transition-all duration-500 border-border hover:border-primary/50 hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(168,85,247,0.2)] group overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent animate-shimmer opacity-0 group-hover:opacity-100 transition-opacity duration-500" style={{ backgroundSize: "200% 100%" }} />
-          <label htmlFor="folder-upload" className="cursor-pointer relative z-10">
+        <Card className="relative border-2 border-dashed transition-all duration-200 border-border hover:border-primary/50 group">
+          <label htmlFor="folder-upload" className="cursor-pointer">
             <div className="flex flex-col items-center justify-center py-12 px-4">
-              <Folder className="w-12 h-12 text-primary mb-4 animate-float group-hover:scale-110 transition-transform duration-300" style={{ animationDelay: "0.5s" }} />
-              <h3 className="text-lg font-semibold mb-2 group-hover:text-primary transition-colors duration-300">Upload Folder</h3>
+              <Folder className="w-12 h-12 text-primary mb-4 group-hover:scale-110 transition-transform duration-200" />
+              <h3 className="text-lg font-semibold mb-2 group-hover:text-primary transition-colors duration-200">Upload Folder</h3>
               <p className="text-sm text-muted-foreground mb-4 text-center">
                 Click to select an entire folder of images
               </p>
@@ -149,14 +147,13 @@ export const DocumentUpload = ({
             {selectedFiles.map((file, index) => (
               <Card 
                 key={index} 
-                className="p-3 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg animate-slide-up border border-transparent hover:border-primary/20 hover:bg-muted/70 group"
-                style={{ animationDelay: `${index * 50}ms` }}
+                className="p-3 transition-all duration-200 hover:bg-muted/70 group"
               >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3 flex-1 min-w-0">
-                    <FileText className="w-5 h-5 text-primary flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
+                    <FileText className="w-5 h-5 text-primary flex-shrink-0" />
                     <div className="min-w-0 flex-1">
-                      <p className="text-sm font-medium truncate group-hover:text-primary transition-colors duration-300">{file.name}</p>
+                      <p className="text-sm font-medium truncate">{file.name}</p>
                       <p className="text-xs text-muted-foreground">
                         {(file.size / 1024 / 1024).toFixed(2)} MB
                       </p>
@@ -166,7 +163,7 @@ export const DocumentUpload = ({
                     variant="ghost"
                     size="icon"
                     onClick={() => removeFile(index)}
-                    className="flex-shrink-0 hover:scale-110 transition-transform duration-300"
+                    className="flex-shrink-0"
                   >
                     <X className="w-4 h-4" />
                   </Button>
