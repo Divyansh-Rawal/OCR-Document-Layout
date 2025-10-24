@@ -20,7 +20,7 @@ const Index = () => {
     setSelectedFiles(prev => [...prev, ...files]);
   };
 
-  const simulateProcessing = async () => {
+  const processDocuments = async () => {
     if (selectedFiles.length === 0) {
       toast({
         title: "No files selected",
@@ -40,46 +40,56 @@ const Index = () => {
       "complete"
     ];
 
-    for (let i = 0; i < stages.length; i++) {
-      setCurrentStage(stages[i]);
-      await new Promise(resolve => setTimeout(resolve, 1500));
-    }
+    try {
+      const processedResults = [];
 
-    // Simulate results
-    const mockResults = selectedFiles.map((file, index) => ({
-      filename: file.name,
-      language: selectedLanguage,
-      file: file,
-      boxes: [
-        {
-          x1: 100,
-          y1: 100,
-          x2: 500,
-          y2: 150,
-          label: "Title",
-          text: "Sample Document Title",
-          confidence: 0.95
-        },
-        {
-          x1: 100,
-          y1: 200,
-          x2: 600,
-          y2: 400,
-          label: "Text",
-          text: "This is sample extracted text from the document. The actual OCR processing would be done by the backend service using YOLO for layout detection and Tesseract for text extraction.",
-          confidence: 0.89
+      for (const file of selectedFiles) {
+        // Progress through stages
+        for (let i = 0; i < stages.length; i++) {
+          setCurrentStage(stages[i]);
+          await new Promise(resolve => setTimeout(resolve, 800));
         }
-      ],
-      fullText: "Sample Document Title\n\nThis is sample extracted text from the document. The actual OCR processing would be done by the backend service using YOLO for layout detection and Tesseract for text extraction."
-    }));
 
-    setResults(mockResults);
-    setIsProcessing(false);
+        // Call the backend API
+        const formData = new FormData();
+        formData.append('file', file);
+        formData.append('language', selectedLanguage);
 
-    toast({
-      title: "Processing complete!",
-      description: `Successfully processed ${selectedFiles.length} document(s)`,
-    });
+        const response = await fetch(
+          `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/analyze-document`,
+          {
+            method: 'POST',
+            body: formData,
+          }
+        );
+
+        if (!response.ok) {
+          throw new Error(`Failed to process ${file.name}`);
+        }
+
+        const result = await response.json();
+        processedResults.push({
+          ...result,
+          file: file, // Keep the file object for visualization
+        });
+      }
+
+      setResults(processedResults);
+      setIsProcessing(false);
+
+      toast({
+        title: "Processing complete!",
+        description: `Successfully processed ${selectedFiles.length} document(s)`,
+      });
+    } catch (error) {
+      console.error('Processing error:', error);
+      setIsProcessing(false);
+      toast({
+        title: "Processing failed",
+        description: error instanceof Error ? error.message : "An error occurred during processing",
+        variant: "destructive"
+      });
+    }
   };
 
   const handleReset = () => {
@@ -140,7 +150,7 @@ const Index = () => {
 
             <div className="flex gap-3">
               <Button 
-                onClick={simulateProcessing} 
+                onClick={processDocuments} 
                 disabled={isProcessing || selectedFiles.length === 0}
                 className="flex-1 transition-all duration-200"
                 size="lg"
