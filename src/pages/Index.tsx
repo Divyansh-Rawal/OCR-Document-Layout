@@ -91,9 +91,9 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 animate-fade-in">
         <div className="container mx-auto px-4 py-6">
-          <div className="flex items-center gap-3 animate-fade-in">
+          <div className="flex items-center gap-3">
             <div className="p-2 bg-primary/10 rounded-lg">
               <FileText className="w-6 h-6 text-primary" />
             </div>
@@ -113,8 +113,8 @@ const Index = () => {
       <main className="container mx-auto px-4 py-8">
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Left Column - Upload & Config */}
-          <div className="lg:col-span-2 space-y-6">
-            <Card className="p-6 animate-slide-up">
+          <div className="lg:col-span-2 space-y-6 animate-fade-in">
+            <Card className="p-6">
               <div className="flex items-start gap-4 mb-6">
                 <Sparkles className="w-5 h-5 text-primary mt-1" />
                 <div>

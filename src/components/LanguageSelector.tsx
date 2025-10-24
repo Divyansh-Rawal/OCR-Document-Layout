@@ -20,7 +20,7 @@ const languages = [
 
 export const LanguageSelector = ({ selectedLanguage, onLanguageChange }: LanguageSelectorProps) => {
   return (
-    <Card className="p-6 animate-slide-up">
+    <Card className="p-6 animate-fade-in transition-all duration-300">
       <div className="space-y-3">
         <Label htmlFor="language" className="text-base font-semibold flex items-center gap-2">
           <span>Document Language</span>

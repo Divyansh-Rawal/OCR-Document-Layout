@@ -74,10 +74,10 @@ export const DocumentUpload = ({
   };
 
   return (
-    <div className="w-full space-y-4 animate-fade-in">
+    <div className="w-full space-y-4 animate-fade-in transition-all duration-300">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Card
-          className={`relative border-2 border-dashed transition-all duration-200 group ${
+          className={`relative border-2 border-dashed transition-all duration-300 group ${
             dragActive 
               ? "border-primary bg-primary/10" 
               : "border-border hover:border-primary/50"
@@ -109,7 +109,7 @@ export const DocumentUpload = ({
           </label>
         </Card>
 
-        <Card className="relative border-2 border-dashed transition-all duration-200 border-border hover:border-primary/50 group">
+        <Card className="relative border-2 border-dashed transition-all duration-300 border-border hover:border-primary/50 group">
           <label htmlFor="folder-upload" className="cursor-pointer">
             <div className="flex flex-col items-center justify-center py-12 px-4">
               <Folder className="w-12 h-12 text-primary mb-4 group-hover:scale-110 transition-transform duration-200" />
@@ -134,7 +134,7 @@ export const DocumentUpload = ({
       </div>
 
       {selectedFiles.length > 0 && (
-        <div className="space-y-2 animate-fade-in">
+        <div className="space-y-2 animate-fade-in transition-all duration-300">
           <div className="flex items-center justify-between">
             <h4 className="text-sm font-medium">Selected Files ({selectedFiles.length})</h4>
             {selectedLanguage && (
@@ -147,7 +147,8 @@ export const DocumentUpload = ({
             {selectedFiles.map((file, index) => (
               <Card 
                 key={index} 
-                className="p-3 transition-all duration-200 hover:bg-muted/70 group"
+                className="p-3 transition-all duration-300 hover:bg-muted/70 group animate-fade-in"
+                style={{ animationDelay: `${index * 50}ms` }}
               >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3 flex-1 min-w-0">

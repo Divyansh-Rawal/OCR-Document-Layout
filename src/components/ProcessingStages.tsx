@@ -33,7 +33,7 @@ export const ProcessingStages = ({ currentStage, isProcessing }: ProcessingStage
   };
 
   return (
-    <Card className="p-6 animate-slide-up">
+    <Card className="p-6 sticky top-4 animate-fade-in transition-all duration-500">
       <h3 className="text-lg font-semibold mb-6 flex items-center gap-2">
         Processing Pipeline
         {isProcessing && <div className="h-2 w-2 rounded-full bg-primary animate-pulse" />}
@@ -44,7 +44,8 @@ export const ProcessingStages = ({ currentStage, isProcessing }: ProcessingStage
           return (
             <div 
               key={stage.id} 
-              className="flex items-start gap-4 transition-all duration-300"
+              className="flex items-start gap-4 transition-all duration-500 animate-fade-in"
+              style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className="flex flex-col items-center">
                 {status === "complete" ? (

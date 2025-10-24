@@ -72,7 +72,7 @@ export const OutputVisualization = ({ file, boxes, filename }: OutputVisualizati
   }, [imageLoaded, boxes]);
 
   return (
-    <Card className="p-4 bg-muted/30 overflow-hidden">
+    <Card className="p-4 bg-muted/30 overflow-hidden animate-fade-in transition-all duration-300">
       <div className="mb-3">
         <h5 className="text-sm font-medium mb-2">Layout Visualization</h5>
         <Badge variant="secondary" className="text-xs">{filename}</Badge>

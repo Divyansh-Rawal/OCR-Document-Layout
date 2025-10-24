@@ -57,7 +57,7 @@ export const ResultsDisplay = ({ results }: ResultsDisplayProps) => {
   }
 
   return (
-    <Card className="p-6 animate-fade-in">
+    <Card className="p-6 animate-fade-in transition-all duration-500">
       <div className="flex items-center justify-between mb-6">
         <h3 className="text-lg font-semibold flex items-center gap-2">
           <span>Processing Results</span>
@@ -93,7 +93,8 @@ export const ResultsDisplay = ({ results }: ResultsDisplayProps) => {
         {results.map((result, index) => (
           <Card 
             key={index} 
-            className="p-4 bg-muted/50 transition-all duration-200 hover:bg-muted/70 group"
+            className="p-4 bg-muted/50 transition-all duration-300 hover:bg-muted/70 group animate-fade-in"
+            style={{ animationDelay: `${index * 100}ms` }}
           >
             <div className="space-y-4">
               {showVisualization && result.file && (
