@@ -49,6 +49,7 @@ const Index = () => {
     const mockResults = selectedFiles.map((file, index) => ({
       filename: file.name,
       language: selectedLanguage,
+      file: file,
       boxes: [
         {
           x1: 100,
@@ -98,7 +99,7 @@ const Index = () => {
             </div>
             <div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Document OCR Pipeline
+                OCR Document Layout
               </h1>
               <p className="text-sm text-muted-foreground">
                 Multi-language layout detection and text extraction

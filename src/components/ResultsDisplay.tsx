@@ -1,9 +1,10 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Download, Copy, CheckCircle2 } from "lucide-react";
+import { Download, Copy, CheckCircle2, Eye, EyeOff } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import { OutputVisualization } from "./OutputVisualization";
 
 interface BoundingBox {
   x1: number;
@@ -21,11 +22,13 @@ interface ResultsDisplayProps {
     language: string;
     boxes: BoundingBox[];
     fullText: string;
+    file?: File;
   }[];
 }
 
 export const ResultsDisplay = ({ results }: ResultsDisplayProps) => {
   const [copied, setCopied] = useState(false);
+  const [showVisualization, setShowVisualization] = useState(true);
   const { toast } = useToast();
 
   const handleCopyText = (text: string) => {
@@ -60,10 +63,30 @@ export const ResultsDisplay = ({ results }: ResultsDisplayProps) => {
           <span>Processing Results</span>
           <CheckCircle2 className="w-5 h-5 text-success" />
         </h3>
-        <Button onClick={handleDownloadJSON} variant="outline" size="sm" className="transition-all duration-200">
-          <Download className="w-4 h-4 mr-2" />
-          Download JSON
-        </Button>
+        <div className="flex gap-2">
+          <Button 
+            onClick={() => setShowVisualization(!showVisualization)} 
+            variant="outline" 
+            size="sm" 
+            className="transition-all duration-200"
+          >
+            {showVisualization ? (
+              <>
+                <EyeOff className="w-4 h-4 mr-2" />
+                Hide Visualization
+              </>
+            ) : (
+              <>
+                <Eye className="w-4 h-4 mr-2" />
+                Show Visualization
+              </>
+            )}
+          </Button>
+          <Button onClick={handleDownloadJSON} variant="outline" size="sm" className="transition-all duration-200">
+            <Download className="w-4 h-4 mr-2" />
+            Download JSON
+          </Button>
+        </div>
       </div>
 
       <div className="space-y-6">
@@ -73,6 +96,14 @@ export const ResultsDisplay = ({ results }: ResultsDisplayProps) => {
             className="p-4 bg-muted/50 transition-all duration-200 hover:bg-muted/70 group"
           >
             <div className="space-y-4">
+              {showVisualization && result.file && (
+                <OutputVisualization 
+                  file={result.file}
+                  boxes={result.boxes}
+                  filename={result.filename}
+                />
+              )}
+
               <div className="flex items-start justify-between">
                 <div>
                   <h4 className="font-medium text-sm mb-2">{result.filename}</h4>
