@@ -1,0 +1,1990 @@
+{
+  "img (1).png": {
+    "language": "tam",
+    "original_size": [
+      1007,
+      72
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          1007,
+          72
+        ],
+        "ocr_text": "*. மார்பக பண்ணுவோம்‌. பண்றிய கிழிப்பாணர்லை மக்களுக்கு அழ்கரித்தல்‌ உங்களால்‌.",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (10).png": {
+    "language": "tam",
+    "original_size": [
+      395,
+      87
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          8,
+          0,
+          395,
+          87
+        ],
+        "ocr_text": "அனுப்புநரின்‌ பெயர்‌ : இரு. ரல்‌ கெரா",
+        "yolo_confidence": 0.7263274788856506
+      }
+    ]
+  },
+  "img (100).png": {
+    "language": "tam",
+    "original_size": [
+      295,
+      245
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          295,
+          245
+        ],
+        "ocr_text": "காலையிலே மலரும்‌. வண்டுகள்‌ வந்து அமரும்‌ எங்கள்‌ தோட்டத்தின்‌ அழகை: கண்டு நாங்கள்‌ மகிழ்வோம்‌ ட பத கிழவா அ)",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (11).png": {
+    "language": "tam",
+    "original_size": [
+      1144,
+      51
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          44,
+          8,
+          1135,
+          51
+        ],
+        "ocr_text": "நத்துவ துறையில்‌ மாபெரும்‌ புரட்சி கத்தியின்றி-ரத்தமின்றி அறுவை சிக்ச்சை இன்றி இதய",
+        "yolo_confidence": 0.5154600739479065
+      }
+    ]
+  },
+  "img (12).png": {
+    "language": "tam",
+    "original_size": [
+      1759,
+      122
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          1759,
+          122
+        ],
+        "ocr_text": "இணி மயமபட கதெவையில்லை",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (13).png": {
+    "language": "tam",
+    "original_size": [
+      984,
+      104
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          984,
+          104
+        ],
+        "ocr_text": "",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (14).png": {
+    "language": "tam",
+    "original_size": [
+      1005,
+      137
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          1005,
+          137
+        ],
+        "ocr_text": "",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (15).png": {
+    "language": "tam",
+    "original_size": [
+      1012,
+      143
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          1012,
+          143
+        ],
+        "ocr_text": "",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (16).png": {
+    "language": "tam",
+    "original_size": [
+      1020,
+      157
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          1020,
+          157
+        ],
+        "ocr_text": "உரரிபங்காயளுகாப்வையவவப்‌ இவ்வ வழுஞ்காப்து வவாரவணடு வாற்ணுார்களா்‌.. இரந்கு விண மழலையணைய வன்படேோணி புணங்அட்‌ அணிமுகப்பருக்கியது. இரங்கு. நவன குறணைனு தோம்‌ சானார்களைனா ல்மை முறலைைவல்‌ உளகவுகையங்கிறனு அவன்ட கன்று அவிர்ஸ்துமு அஅவட்வலளியல்கு வடவை உண்ணுதல்‌ உளவக்துமுமை",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (17).png": {
+    "language": "tam",
+    "original_size": [
+      1016,
+      106
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          1016,
+          106
+        ],
+        "ocr_text": "",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (18).png": {
+    "language": "tam",
+    "original_size": [
+      1048,
+      55
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          1048,
+          55
+        ],
+        "ocr_text": "பொருள்‌: நிலம்‌ - மயிலை - திருவல்லிக்கேணி வட்டம்‌ - நகரளவை",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (19).png": {
+    "language": "tam",
+    "original_size": [
+      918,
+      100
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          918,
+          100
+        ],
+        "ocr_text": "எண்‌.2 பகுதி பிளாக்‌ 8, கோட்டூர்‌ கிராமம்‌ - குடியிருப்பு கட்டுதல்‌ - நிலமாற்றம்‌ - குறித்து",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (2).png": {
+    "language": "tam",
+    "original_size": [
+      383,
+      103
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          8,
+          0,
+          383,
+          103
+        ],
+        "ocr_text": "உங்களுக்காக) (இணைப்பு 1) மார்பக - சய பரிசோதனை மருத்துவ மார்பக பர்சோதனை",
+        "yolo_confidence": 0.7492086887359619
+      }
+    ]
+  },
+  "img (20).png": {
+    "language": "tam",
+    "original_size": [
+      1041,
+      117
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          1041,
+          117
+        ],
+        "ocr_text": "பார்வை: நி.பொ. கோ-2, செ-78 கடித எண்‌. 43/%5/ரா/2018, நாள்‌. 19.06.13",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (21).png": {
+    "language": "tam",
+    "original_size": [
+      529,
+      141
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          14,
+          0,
+          529,
+          141
+        ],
+        "ocr_text": "ந.க.எண்‌. 1(2)/13945/13",
+        "yolo_confidence": 0.5417467951774597
+      }
+    ]
+  },
+  "img (22).png": {
+    "language": "tam",
+    "original_size": [
+      361,
+      61
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          7,
+          0,
+          361,
+          61
+        ],
+        "ocr_text": "நாள்‌ :19.08.2013",
+        "yolo_confidence": 0.5420089364051819
+      }
+    ]
+  },
+  "img (23).png": {
+    "language": "tam",
+    "original_size": [
+      955,
+      56
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          955,
+          56
+        ],
+        "ocr_text": "சென்னை மாவட்டம்‌, மயிலை திருவல்லிக்கேணி வட்டம்‌, கோட்டூர்‌ கிராமம்‌, நகர புல",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (24).png": {
+    "language": "tam",
+    "original_size": [
+      1007,
+      101
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          37,
+          0,
+          1001,
+          101
+        ],
+        "ocr_text": "ண்‌.2 பகுதி, 198 ஏக்கர்‌ பரப்பில்‌ இராஜிவ்காந்தி வீட்டு வசதி திட்டத்தின்‌ (60) கீழ்‌ ரிக்குறவர்‌ சமுதாயத்தினருக்கு மறுகுடியமர்வு அமர்த்தும்‌ பொருட்டு குடியிருப்புக்கள்‌ கட்ட",
+        "yolo_confidence": 0.8346554636955261
+      }
+    ]
+  },
+  "img (25).png": {
+    "language": "tam",
+    "original_size": [
+      991,
+      99
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          36,
+          0,
+          985,
+          99
+        ],
+        "ocr_text": "த்தேசித்து திட்ட முன்‌ நுழைவு அனுமதி அரசிடம்‌ பெற்றுத்‌ தரும்‌ பொருட்டு உரிய நிலமாற்று ட்பு மனு மற்றும்‌ வரைபடங்கள்‌ 3 நகல்களில்‌ இத்துடன்‌ இணைத்தனுப்படுகிறது.",
+        "yolo_confidence": 0.7502143979072571
+      }
+    ]
+  },
+  "img (26).png": {
+    "language": "tam",
+    "original_size": [
+      753,
+      118
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          24,
+          0,
+          752,
+          118
+        ],
+        "ocr_text": "மேலாண்மை இயக்குநர்‌, தமிழ்நாடு குடிசை மாற்று வாரியம்‌,",
+        "yolo_confidence": 0.5358492732048035
+      }
+    ]
+  },
+  "img (27).png": {
+    "language": "tam",
+    "original_size": [
+      583,
+      68
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          583,
+          68
+        ],
+        "ocr_text": "5, காமராசர்‌ சாலை, சென்னை.",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (28).png": {
+    "language": "tam",
+    "original_size": [
+      691,
+      105
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          22,
+          0,
+          690,
+          105
+        ],
+        "ocr_text": "சென்னை மாவட்டம்‌,",
+        "yolo_confidence": 0.6690759658813477
+      }
+    ]
+  },
+  "img (29).png": {
+    "language": "tam",
+    "original_size": [
+      633,
+      92
+    ],
+    "blocks": []
+  },
+  "img (3).png": {
+    "language": "tam",
+    "original_size": [
+      280,
+      119
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          3,
+          0,
+          280,
+          119
+        ],
+        "ocr_text": "மாப்பிள்ளை அம்மா- பிடா",
+        "yolo_confidence": 0.6201558113098145
+      }
+    ]
+  },
+  "img (30).png": {
+    "language": "tam",
+    "original_size": [
+      773,
+      172
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          6,
+          684,
+          167
+        ],
+        "ocr_text": "மல்கி இிதாவித்னாகை விம்பந்தம உகு",
+        "yolo_confidence": 0.6368638873100281
+      }
+    ]
+  },
+  "img (31).png": {
+    "language": "tam",
+    "original_size": [
+      531,
+      70
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          515,
+          70
+        ],
+        "ocr_text": "திருமதி ரேவதி செல்வகிருஷ்ணன்‌",
+        "yolo_confidence": 0.5008312463760376
+      }
+    ]
+  },
+  "img (32).png": {
+    "language": "tam",
+    "original_size": [
+      1261,
+      152
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          17,
+          0,
+          1211,
+          152
+        ],
+        "ocr_text": "தங்கள்‌ அனுமதி கோரிய நிகழச்சிக்கு காவல்‌ துறையால்‌ அனுமதி மறுக்கப்படுகிறது. அதை மீறும்‌ பட்சத்தில்‌ அது சம்மந்தமாக தங்கள்‌ மீது சட்டப்படி உரிய நடவடிக்கை மேற்கொள்ளப்படும்‌ என்பது தெரிவித்துக்‌ கொள்ளப்படுகிறது.",
+        "yolo_confidence": 0.9212360978126526
+      }
+    ]
+  },
+  "img (33).png": {
+    "language": "tam",
+    "original_size": [
+      1179,
+      62
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          1179,
+          62
+        ],
+        "ocr_text": "தற்போது ஸ்ரீவைகுண்டம்‌ உட்கோட்ட பகுதிகளில்‌ நடைபெறும்‌ சட்ட ஒழுங்க",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (34).png": {
+    "language": "tam",
+    "original_size": [
+      1185,
+      102
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          1185,
+          102
+        ],
+        "ocr_text": "பிரச்சனை காரணமாக ஸ்ரீவைகுண்டம்‌ உட்கோட்டத்தில்‌ காவல்‌ சட்டம்‌ 1861 30(2) நடைமுறையில்‌ உள்ளதாலும்‌",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (35).png": {
+    "language": "tam",
+    "original_size": [
+      1186,
+      168
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          8,
+          0,
+          1140,
+          168
+        ],
+        "ocr_text": "சொந்தமானது ஆதலால்‌ அறநிலையத்துறையிடம்‌ இருந்து அனுமதி கடிதம்‌ பெற்று",
+        "yolo_confidence": 0.7227450013160706
+      }
+    ]
+  },
+  "img (36).png": {
+    "language": "tam",
+    "original_size": [
+      1154,
+      58
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          1154,
+          58
+        ],
+        "ocr_text": "எந்த ஒரு நிகழ்விற்கும்‌ நிகழ்ச்சி நடைபெறும்‌ நாட்களுக்கு 15 தினங்களுக்கு முண்பு",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (37).png": {
+    "language": "tam",
+    "original_size": [
+      1278,
+      172
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          12,
+          0,
+          1224,
+          172
+        ],
+        "ocr_text": "இசைக்கவும்‌ காவல்‌ துறையில்‌ அனுமதி வேண்டி 20.01.2024 ம்‌ தேதி ஆழ்வார்திருநகரி காவல்‌ நிலையத்தில்‌ கடிதம்‌ அளித்துள்ளிகள்‌, கொடுத்த மனு சம்மந்தமாக பரிசீலணை செய்யப்பட்டது.",
+        "yolo_confidence": 0.846451461315155
+      }
+    ]
+  },
+  "img (38).png": {
+    "language": "tam",
+    "original_size": [
+      1258,
+      129
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          9,
+          0,
+          1206,
+          129
+        ],
+        "ocr_text": "காங்கள்‌ வருகின்ற 22.01.2014-ம்‌ தேதி திங்கள்‌ கிழமை அன்று பகவான்‌ ஸ்ரீராமரின்‌ கும்பாபிஷேகத்தை பக்தியுடன்‌ கொண்டாடும்‌ வகையில்‌ தென்திருப்பேரை பெருமாள்‌",
+        "yolo_confidence": 0.8058075904846191
+      }
+    ]
+  },
+  "img (39).png": {
+    "language": "tam",
+    "original_size": [
+      880,
+      59
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          880,
+          59
+        ],
+        "ocr_text": "மூலதனத்தின்‌ உருமாற்றகிகளும்‌ அவற்றின்‌ குற்றுகளும",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (4).png": {
+    "language": "tam",
+    "original_size": [
+      258,
+      107
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          2,
+          0,
+          258,
+          107
+        ],
+        "ocr_text": "மணப்பெண்‌ அம்மா- பிடா",
+        "yolo_confidence": 0.6727544069290161
+      }
+    ]
+  },
+  "img (40).png": {
+    "language": "tam",
+    "original_size": [
+      1194,
+      142
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          1194,
+          142
+        ],
+        "ocr_text": "£78 உபரி-மதிப்பும்‌ அடங்கியுள்ளது. இந்த உபரி-மதிப்பு 1,560 இராத்தல்‌ நூலின்‌ மதிப்பாகும்‌. € என்பது 10,000 இராத்தல்‌ நூலின்‌ மதிப்பினது தெரிவிப்பு ஆகும்‌. ஆகவே அது 6* 46க்குச்‌",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (41).png": {
+    "language": "tam",
+    "original_size": [
+      1179,
+      79
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          1179,
+          79
+        ],
+        "ocr_text": "சமம்‌: அதாவது 6, இந்த இல்‌ ஏற்பட்ட பெருக்கம்‌ (-878) அகிய சரண்மன்‌ கூட்டுக்‌ கொகைக்குச்‌ சமம்‌. இந்தப்‌ பெருக்‌",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (42).png": {
+    "language": "tam",
+    "original_size": [
+      1232,
+      95
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          1232,
+          95
+        ],
+        "ocr_text": "உற்பத்திக்காகச்‌ செலவிடப்படும்‌ மூலதனத்தின்‌ மதிப்போடு கொண்டுள்ள உறவைத்‌ தெரிவிக்கிறது; அதாவது இச்சரக்குகளின்‌",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (43).png": {
+    "language": "tam",
+    "original_size": [
+      848,
+      70
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          848,
+          70
+        ],
+        "ocr_text": "தேனும்‌ சரக்குத்‌ தொகுதியின்‌ மதிப்புத்‌ தெரிவிப்பைக்‌ குறிக்கும்‌ வேறெந்த இன்‌ மதிப்புப்‌ பருமனையும்‌ போலவே, இந்த மதிப்‌",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (44).png": {
+    "language": "tam",
+    "original_size": [
+      844,
+      72
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          844,
+          72
+        ],
+        "ocr_text": "புப்‌ பருமனும்‌: இதில்‌. உருக்கொண்ட உழைப்பின்‌ அளவாலேயே நிர்ணயிக்கப்படுகிறது. அதன்‌ ஒப்பிட்டு மதிப்புப்‌ பருமனே,",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (45).png": {
+    "language": "tam",
+    "original_size": [
+      863,
+      58
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          863,
+          58
+        ],
+        "ocr_text": "",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (46).png": {
+    "language": "tam",
+    "original_size": [
+      859,
+      150
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          30,
+          0,
+          854,
+          150
+        ],
+        "ocr_text": "ரலானது இந்த உபரி-மதிப்பால்‌ விரிவடைந்த, வளம்‌: பெற்ற லதன-மதிப்பின்‌ உறைவிடமாகிறது. முதலாளித்துவப்‌ பொருளுற்‌ த்தி 'நிகழ்முறையின்‌ உற்பத்திப்‌ பொருளாய்‌ இருப்பதால்தான்‌ து இப்படி ஆகிறது. 2 ஆனது ஒரு மதிப்புறவைத்‌ தெரிவிக்‌ றது: உற்பக்கி செய்யப்படும்‌ சரக்குகளின்‌ மதிப்பு அவற்றின்‌",
+        "yolo_confidence": 0.6207078099250793
+      }
+    ]
+  },
+  "img (47).png": {
+    "language": "tam",
+    "original_size": [
+      851,
+      163
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          30,
+          0,
+          847,
+          163
+        ],
+        "ocr_text": "றலதனத்தின்‌ துணை கொண்டு நூல்‌ உற்பத்தி செய்த முதலாளிக்கு ட்டும்‌ நிலவக்‌ கூடிய ஓர்‌ உறவில்தான்‌ 10,000 இராத்தல்‌ நூல்‌ ரக்கு-மூலதனமாகிறது. மதிப்பின்‌ ஊர்தியாகக்‌ கூடியதான 10,000 ிராத்தல்‌ நூலை சரக்கு-மூலதனம்‌ ஆக்குவது உள்‌ உறவுதானே விர வெளி உறவல்ல எனலாம்‌. அது தனது முதலாளித்துவப்‌",
+        "yolo_confidence": 0.754554033279419
+      }
+    ]
+  },
+  "img (48).png": {
+    "language": "tam",
+    "original_size": [
+      1364,
+      107
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          1364,
+          107
+        ],
+        "ocr_text": "தவிர வெளி உறவல்ல எனலாம்‌. அது தனது முதலாளித்துவப்‌ பிறவிக்‌ குறியை வெளிப்படுத்துவது அதனுடைய மதிப்பின்‌",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (49).png": {
+    "language": "tam",
+    "original_size": [
+      634,
+      84
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          634,
+          84
+        ],
+        "ocr_text": "புதிய துணை ஜனாதிபதி நேர்தல்‌: வாக்குப்பதிவு விறுவிறுப்பு - முதல்‌ நபராக வாக்களித்த பிரதமர்‌ மாடி",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (5).png": {
+    "language": "tam",
+    "original_size": [
+      837,
+      115
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          837,
+          115
+        ],
+        "ocr_text": "நிச்சயதார்த்த. அழைப்பு",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (50).png": {
+    "language": "tam",
+    "original_size": [
+      445,
+      135
+    ],
+    "blocks": [
+      {
+        "block_type": "Title",
+        "bbox": [
+          16,
+          0,
+          433,
+          135
+        ],
+        "ocr_text": "அரசுக்கு எதிராக வலுக்கும்‌ (பாராட்டம்‌; பிரதமர்‌ பதவியை ராஜினாமா செய்தார்‌ கே.பி. சர்மா ஓலி",
+        "yolo_confidence": 0.583372175693512
+      }
+    ]
+  },
+  "img (51).png": {
+    "language": "tam",
+    "original_size": [
+      436,
+      102
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          436,
+          102
+        ],
+        "ocr_text": "டங்கோட்டையன்‌ குறித்த கேள்விக்கு தம்பிதுரை பநில்‌",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (52).png": {
+    "language": "tam",
+    "original_size": [
+      871,
+      217
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          812,
+          217
+        ],
+        "ocr_text": "கடவுச்சீட்டின்‌ தற்போதைய நிலை காரணமாக வெளிநாடுகளுக்குப்‌ பணம்‌ மேற்கொள்வதில்‌ சிக்கல்கள்‌ இருப்பதாகக்‌ கூறி கெஜ்ரிவால்‌ மனு தாக்கல்‌ செய்து இருந்தார்‌.",
+        "yolo_confidence": 0.6105350255966187
+      }
+    ]
+  },
+  "img (53).png": {
+    "language": "tam",
+    "original_size": [
+      910,
+      177
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          8,
+          841,
+          174
+        ],
+        "ocr_text": "உள்ளூர்‌ முதல்‌ உலகம்‌ வரை இன்று நடைபெறும்‌ முக்கிய நிகழ்வுகளை உடனுக்கு உடன்‌ இங்கே தெரிந்து கொள்ளலாம்‌.",
+        "yolo_confidence": 0.5587319135665894
+      }
+    ]
+  },
+  "img (54).png": {
+    "language": "tam",
+    "original_size": [
+      468,
+      230
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          468,
+          230
+        ],
+        "ocr_text": "அமெரிக்க ஓபன்‌ டென்னிஸ்‌: மீண்டும்‌ நம்பர்‌ 1 இடத்தை பிடித்த அல்காரஸ்‌",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (55).png": {
+    "language": "tam",
+    "original_size": [
+      484,
+      190
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          484,
+          190
+        ],
+        "ocr_text": "ணை ஜனாதிபதி த்தல்‌: வாக்களித்தார்‌ ராகுல்‌ காந்தி",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (56).png": {
+    "language": "tam",
+    "original_size": [
+      361,
+      92
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          7,
+          0,
+          361,
+          92
+        ],
+        "ocr_text": "நேபாளத்தில்‌ வலுக்கும்‌ போராட்டம்‌... அரசுக்கு அதிகரிக்கும்‌ நெருக்கடி... நாட்டை விட்டு வெளியேற பிரதமர்‌ திட்டம்‌?",
+        "yolo_confidence": 0.6499573588371277
+      }
+    ]
+  },
+  "img (57).png": {
+    "language": "tam",
+    "original_size": [
+      365,
+      87
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          2,
+          0,
+          341,
+          87
+        ],
+        "ocr_text": "திருநெல்வேலி: முகநூலில்‌ இரு பிரிவினரிடையே பிரச்சினையை தூண்டும்‌ வீடியோ பதிவு- 2 பேர்‌ கைது",
+        "yolo_confidence": 0.540797770023346
+      }
+    ]
+  },
+  "img (58).png": {
+    "language": "tam",
+    "original_size": [
+      597,
+      196
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          8,
+          0,
+          578,
+          196
+        ],
+        "ocr_text": "வழக்கமாக ஆப்பிள்‌ நிறுவனம்‌ ஐபோன்‌, ஐபோன்‌ ப்ரோ, ஐபோன்‌ மேக்ஸ்‌ என 3 மாடல்களை வெளியிடும்‌. இந்தாண்டு அத்தோடு சேர்த்து புதிதாக ஐபோன்‌ 17 ஏர்‌ _மாடலையும்‌ வெளியிடுகிறது.",
+        "yolo_confidence": 0.8895652294158936
+      }
+    ]
+  },
+  "img (59).png": {
+    "language": "tam",
+    "original_size": [
+      602,
+      118
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          8,
+          0,
+          559,
+          118
+        ],
+        "ocr_text": "செப்டம்பர்‌ சர்ப்ரைஸ்‌: 10௩௦6 17 சீரிஸ்‌, புதிய வாட்ச்‌, ஏர்பாட்ஸ்‌... மிரட்டும்‌ மாடல்களுடன்‌ ஆப்பிள்‌",
+        "yolo_confidence": 0.6698758602142334
+      }
+    ]
+  },
+  "img (6).png": {
+    "language": "tam",
+    "original_size": [
+      892,
+      96
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          892,
+          96
+        ],
+        "ocr_text": "இவர்களது நிச்சயதார்த்த விமா பெரியோர்களால்‌ ச்சயிக்கவண்ணம்‌ பாண்டீச்சேரி.",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (60).png": {
+    "language": "tam",
+    "original_size": [
+      685,
+      102
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          7,
+          5,
+          661,
+          96
+        ],
+        "ocr_text": "இன்னும்‌ 2 ஆண்டுகள்‌ விளையாட கம்மின்ஸ்‌, ஸ்டார்க்‌, ஹேசில்வுட்‌ திட்டம்‌!",
+        "yolo_confidence": 0.5558014512062073
+      }
+    ]
+  },
+  "img (61).png": {
+    "language": "tam",
+    "original_size": [
+      434,
+      89
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          434,
+          89
+        ],
+        "ocr_text": "சிங்கப்பூருக்கு எதிராக இந்தியா கோல்‌ மழை: சூப்பர்‌ 4 சுற்றுக்குத்‌ தகுதி",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (62).png": {
+    "language": "tam",
+    "original_size": [
+      527,
+      74
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          527,
+          74
+        ],
+        "ocr_text": "",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (63).png": {
+    "language": "tam",
+    "original_size": [
+      561,
+      150
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          539,
+          150
+        ],
+        "ocr_text": "வைகோ தலைவராக தோல்வியைத்‌ தழுவியிருக்கிறார்‌!மதிமுகவிலிருந்து நிரந்தரமாக நீக்கம்‌! மல்லை சத்யா பேட்டி",
+        "yolo_confidence": 0.5505139827728271
+      }
+    ]
+  },
+  "img (64).png": {
+    "language": "tam",
+    "original_size": [
+      540,
+      113
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          540,
+          113
+        ],
+        "ocr_text": "ராமரை காணச்‌ செல்கிறேன்‌:செங்ககோட்டையன்‌! | செய்திகள்‌: சில வரிகளில்‌ | ௦8.09.25",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (65).png": {
+    "language": "tam",
+    "original_size": [
+      826,
+      200
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          28,
+          0,
+          822,
+          200
+        ],
+        "ocr_text": "கன்ஜி. கவுள்சலிங்கில்‌ 1 லட்சம்‌ பேர்‌ சேர்ந்தனர்‌",
+        "yolo_confidence": 0.7806288003921509
+      }
+    ]
+  },
+  "img (66).png": {
+    "language": "tam",
+    "original_size": [
+      622,
+      127
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          19,
+          0,
+          622,
+          127
+        ],
+        "ocr_text": "பள்ளி, கல்லூரிகள்‌ மூடப்பட்டன பதற்றத்தால்‌ போலீஸ்‌ குவிப்பு",
+        "yolo_confidence": 0.7234300374984741
+      }
+    ]
+  },
+  "img (67).png": {
+    "language": "tam",
+    "original_size": [
+      1002,
+      133
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          1002,
+          133
+        ],
+        "ocr_text": "மாநிலத்தை பிரிக்க எதிர்ப்பு",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (68).png": {
+    "language": "tam",
+    "original_size": [
+      1028,
+      167
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          1028,
+          167
+        ],
+        "ocr_text": "புதுச்சேரி பல்கலைக்கழக விரிவுரையாளருக்கு இளம்‌ உயிரிதொழில்நுட்ப விஞ்ஞானி விருது",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (69).png": {
+    "language": "tam",
+    "original_size": [
+      1019,
+      202
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          6,
+          0,
+          980,
+          202
+        ],
+        "ocr_text": "குறுகி வாக்காளர்‌ பட்ழயல்‌ 6ம்‌ கததி ஸவனியாகிறது",
+        "yolo_confidence": 0.6120110154151917
+      }
+    ]
+  },
+  "img (7).png": {
+    "language": "tam",
+    "original_size": [
+      841,
+      80
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          15,
+          0,
+          809,
+          80
+        ],
+        "ocr_text": "_ ஹோட்டல்‌ தமிழ்‌ பார்கஹாலில்‌ நடைபெறவிருக்கும்‌ நிச்சயதார்த்த விழாவிற்கு",
+        "yolo_confidence": 0.5919158458709717
+      }
+    ]
+  },
+  "img (70).png": {
+    "language": "tam",
+    "original_size": [
+      1010,
+      81
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          1010,
+          81
+        ],
+        "ocr_text": "அரசு மசோதாவுக்கு மம்தா, மாயாவஇ சுட்சி ஆதரவு",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (71).png": {
+    "language": "tam",
+    "original_size": [
+      276,
+      153
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          25,
+          104,
+          86,
+          148
+        ],
+        "ocr_text": "ஒலி",
+        "yolo_confidence": 0.5148337483406067
+      }
+    ]
+  },
+  "img (72).png": {
+    "language": "tam",
+    "original_size": [
+      264,
+      165
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          264,
+          165
+        ],
+        "ocr_text": "",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (73).png": {
+    "language": "tam",
+    "original_size": [
+      279,
+      156
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          2,
+          14,
+          256,
+          147
+        ],
+        "ocr_text": "நேபாளத்தில்‌ வசிக்கும்‌ இந்தியர்கள்‌ உஷாராக இருக்கணும்‌; மத்திய அரசு அறிவுரை",
+        "yolo_confidence": 0.5566843748092651
+      }
+    ]
+  },
+  "img (74).png": {
+    "language": "tam",
+    "original_size": [
+      285,
+      130
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          285,
+          130
+        ],
+        "ocr_text": "மும்பை விமான பேர்‌ டிஸ்மிஸ்‌",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (75).png": {
+    "language": "tam",
+    "original_size": [
+      601,
+      123
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          601,
+          123
+        ],
+        "ocr_text": "",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (76).png": {
+    "language": "tam",
+    "original_size": [
+      678,
+      94
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          21,
+          1,
+          677,
+          91
+        ],
+        "ocr_text": "ன்று துணை ஜனாதிபதி தேர்தல்‌: பிஜுஜனதா தளம்‌, ி.ஆர்‌.எஸ்‌., கட்சிகள்‌ புறக்கணிப்பு - ண",
+        "yolo_confidence": 0.6745376586914062
+      }
+    ]
+  },
+  "img (77).png": {
+    "language": "tam",
+    "original_size": [
+      513,
+      148
+    ],
+    "blocks": [
+      {
+        "block_type": "Title",
+        "bbox": [
+          8,
+          0,
+          480,
+          143
+        ],
+        "ocr_text": "நேபாளத்தில்‌ கே.பி.ஒலி அரசு கவிழுமா? 3 அமைச்சர்கள்‌ ராஜினாமா...",
+        "yolo_confidence": 0.5291305780410767
+      }
+    ]
+  },
+  "img (78).png": {
+    "language": "tam",
+    "original_size": [
+      653,
+      112
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          653,
+          112
+        ],
+        "ocr_text": "நேபாளத்தில்‌ சமூக வலைத்தளங்கள்‌ மீதான தடை நீக்கம்‌ 16 மணிநேரத்திற்கு முன்பு",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (79).png": {
+    "language": "tam",
+    "original_size": [
+      798,
+      129
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          798,
+          129
+        ],
+        "ocr_text": "உங்களுக்கானவை : உங்கள்‌ ஆர்வங்களின்‌ அடிப்படையில்‌ பரிந்துரைக்கப்படுகிறது",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (8).png": {
+    "language": "tam",
+    "original_size": [
+      871,
+      96
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          4,
+          0,
+          839,
+          96
+        ],
+        "ocr_text": "சுற்றம்மும்‌ நட்பும்‌ சூய வருகைதந்து விழாவிலை ழ்‌ சிறப்பித்து வாழ்த்தியருளுமாறு வேண்டுகிறோம்‌.",
+        "yolo_confidence": 0.5643563270568848
+      }
+    ]
+  },
+  "img (80).png": {
+    "language": "tam",
+    "original_size": [
+      660,
+      42
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          660,
+          42
+        ],
+        "ocr_text": "இன்றைய முக்கியச்‌ செய்திகள்‌.. சில வரிகளில்‌",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (81).png": {
+    "language": "tam",
+    "original_size": [
+      571,
+      77
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          554,
+          72
+        ],
+        "ocr_text": "பாலத்‌ ல்‌ பைக்‌ மோதி விபத்து; பள்ளத்தில்‌ தூக்கி அத்துல பச்‌ மதில்‌ ந ணி தில்‌ லூ",
+        "yolo_confidence": 0.661917507648468
+      }
+    ]
+  },
+  "img (82).png": {
+    "language": "tam",
+    "original_size": [
+      560,
+      94
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          2,
+          0,
+          543,
+          93
+        ],
+        "ocr_text": "ஜிஎஸ்டி வரி குறைப்பு இருக்கட்டும்‌. தீபாவளிக்கு (முன்பாக.. வரப்போகும்‌ இன்னொரு சர்ப்ரைஸ்‌ அறிவிப்பு!",
+        "yolo_confidence": 0.7878754734992981
+      }
+    ]
+  },
+  "img (83).png": {
+    "language": "tam",
+    "original_size": [
+      512,
+      99
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          5,
+          8,
+          484,
+          99
+        ],
+        "ocr_text": "குடியரசு துணைத்‌ தலைவர்‌ தேர்தல்‌ எப்படி நடக்கும்‌? யார்‌ வாக்களிக்கலாம்‌? ஓட்டூகள்‌ எண்ணிக்கை எப்படி நடத்தப்படும்‌...",
+        "yolo_confidence": 0.8320920467376709
+      }
+    ]
+  },
+  "img (84).png": {
+    "language": "tam",
+    "original_size": [
+      271,
+      178
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          8,
+          254,
+          176
+        ],
+        "ocr_text": "இந்தப்‌ புதிய ௦௦௦96 அம்சம்‌, செய்தி அலுவலக எடிட்டர்களால்‌ தேர்ந்தெடுக்கப்பட்ட செய்திகளைத்‌ தனிப்படுத்திக்‌ காட்டும்‌",
+        "yolo_confidence": 0.8188005685806274
+      }
+    ]
+  },
+  "img (85).png": {
+    "language": "tam",
+    "original_size": [
+      230,
+      134
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          225,
+          134
+        ],
+        "ocr_text": "நம்பிக்கை வாக்கெடுப்பில்‌ தோல்வி... கவிழ்ந்தது பிரான்ஸ்‌ அரசு- பிரதமர்‌ ராஜினாமா",
+        "yolo_confidence": 0.7381884455680847
+      }
+    ]
+  },
+  "img (86).png": {
+    "language": "tam",
+    "original_size": [
+      747,
+      173
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          747,
+          173
+        ],
+        "ocr_text": "ஆளுநர்கள்‌ கோபுரத்தில்‌ உட்கார்ந்து கொண்டு மசோதாவை படிக்க பல மாதங்கள்‌ எடுத்துக்‌ கொள்ள முடியாது :...",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (87).png": {
+    "language": "tam",
+    "original_size": [
+      386,
+      102
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          386,
+          102
+        ],
+        "ocr_text": "மேற்குவங்க மக்களுக்கு எதிராக பேசிய பாஜக எம்‌எல்‌ஏ வாயில்‌ ஆசிட்‌...",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (88).png": {
+    "language": "tam",
+    "original_size": [
+      382,
+      100
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          23,
+          0,
+          375,
+          100
+        ],
+        "ocr_text": "தஞ்சை கல்லணை கால்வாய்‌ ஆற்றில்‌ 4 பேர்‌ சடலமாக மீட்பு",
+        "yolo_confidence": 0.5222381353378296
+      }
+    ]
+  },
+  "img (89).png": {
+    "language": "tam",
+    "original_size": [
+      326,
+      106
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          326,
+          106
+        ],
+        "ocr_text": "ஈவா மையத்துக்கு எதிரான வழக்கை கள்ளுபடு செய்து...",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (9).png": {
+    "language": "tam",
+    "original_size": [
+      556,
+      94
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          16,
+          0,
+          556,
+          94
+        ],
+        "ocr_text": "லு இடம்‌ ஹோட்டல்‌ தாஜ்‌ மும்பை",
+        "yolo_confidence": 0.6803560256958008
+      }
+    ]
+  },
+  "img (90).png": {
+    "language": "tam",
+    "original_size": [
+      378,
+      96
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          12,
+          0,
+          335,
+          96
+        ],
+        "ocr_text": "பள்ளி குழந்தைகளுக்கு நடனம்‌ சொல்லி கொடுத்த ஆரியர்‌ !",
+        "yolo_confidence": 0.6789255738258362
+      }
+    ]
+  },
+  "img (91).png": {
+    "language": "tam",
+    "original_size": [
+      339,
+      119
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          12,
+          0,
+          329,
+          98
+        ],
+        "ocr_text": "அப்துல்‌ கலாம்‌ கனவை நினைவாக்திய மாணவன்‌ பிரமிக்க வைக்கும்‌...",
+        "yolo_confidence": 0.7217836976051331
+      }
+    ]
+  },
+  "img (92).png": {
+    "language": "tam",
+    "original_size": [
+      357,
+      74
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          14,
+          1,
+          319,
+          74
+        ],
+        "ocr_text": "தனித்துவமான காட்ஜி .... யானை மனசு ரொம்ப",
+        "yolo_confidence": 0.5395697355270386
+      }
+    ]
+  },
+  "img (93).png": {
+    "language": "tam",
+    "original_size": [
+      360,
+      94
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          14,
+          0,
+          329,
+          94
+        ],
+        "ocr_text": "ஆசைகளை நிறைவேற்றி நவக்கிரக தோஷங்களை நீக்கும்‌ நவதிருப்பதிகள்‌",
+        "yolo_confidence": 0.5482819080352783
+      }
+    ]
+  },
+  "img (94).png": {
+    "language": "tam",
+    "original_size": [
+      273,
+      107
+    ],
+    "blocks": [
+      {
+        "block_type": "Title",
+        "bbox": [
+          15,
+          8,
+          244,
+          106
+        ],
+        "ocr_text": "இது எங்க ஏரியா... உள்ள வராதே: 2 ஆண்டுகளில்‌ 4...",
+        "yolo_confidence": 0.5170994997024536
+      }
+    ]
+  },
+  "img (95).png": {
+    "language": "tam",
+    "original_size": [
+      285,
+      86
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          285,
+          86
+        ],
+        "ocr_text": "உத்தராகண்டில்‌ நடைபெற்ற தேசிய வாள்வீச்சு போட்டீயி....",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (96).png": {
+    "language": "tam",
+    "original_size": [
+      463,
+      102
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          1,
+          7,
+          432,
+          101
+        ],
+        "ocr_text": "உலக யு45 டேபிள்‌ டென்னிஸ்‌ மகளிர்‌ இரட்டையர்‌ பிரிவில்‌ இந்தியாவுக்கு தங்கம்‌",
+        "yolo_confidence": 0.6820489168167114
+      }
+    ]
+  },
+  "img (97).png": {
+    "language": "tam",
+    "original_size": [
+      524,
+      149
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          18,
+          0,
+          500,
+          143
+        ],
+        "ocr_text": "சவூதி அரேபிய பாலைவனத்தில்‌ பிரம்மிப்பூட்டும்‌ மீன்‌, யானை, மஷ்ரூம்‌ உருவ பாறைகள்‌!!",
+        "yolo_confidence": 0.5624032616615295
+      }
+    ]
+  },
+  "img (98).png": {
+    "language": "tam",
+    "original_size": [
+      294,
+      106
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          0,
+          0,
+          294,
+          106
+        ],
+        "ocr_text": "டோக்கியோ கண்காட்சியில்‌ கவனம்‌ ஈர்க்கும்‌ பொம்மைகள்‌...!!",
+        "yolo_confidence": null
+      }
+    ]
+  },
+  "img (99).png": {
+    "language": "tam",
+    "original_size": [
+      414,
+      155
+    ],
+    "blocks": [
+      {
+        "block_type": "Text",
+        "bbox": [
+          2,
+          19,
+          370,
+          151
+        ],
+        "ocr_text": "மரம்‌ வளராது என தெரிந்தும்‌ தார்‌ சாலையில்‌ தண்ணீர்‌ ஊற்றியபடி செல்கிறது தண்ணீர்‌ லாரி |",
+        "yolo_confidence": 0.6043710708618164
+      }
+    ]
+  }
+}

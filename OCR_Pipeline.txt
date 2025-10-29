@@ -1,0 +1,130 @@
+import os
+import json
+from PIL import Image
+import pytesseract
+from doclayout_yolo import YOLO
+
+# --------------------
+# CONFIG
+# --------------------
+
+# Tesseract path (update if needed)
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
+# Language folders and Tesseract language codes
+LANGUAGE_FOLDERS = {
+    "D:\OCR\Input OCR\Tamil_scanned": "tam"
+}
+
+YOLO_MODEL_PATH = r"D:\OCR\Pipeline\yolov12l-doclaynet.pt"
+OUTPUT_FILE = "OCR_Pipeline.json"
+
+# --------------------
+# YOLO HELPERS
+# --------------------
+
+def perform_prediction(image, model, conf=0.5, iou_thresh=0.45, device="cpu"):
+    return model.predict(image, imgsz=1024, conf=conf, iou=iou_thresh, device=device, verbose=False)
+
+def extract_bboxes(det_res_list):
+    """Extract bounding boxes and use YOLO's built-in class names."""
+    boxes_info = []
+    for result in det_res_list:
+        names = result.names  # dictionary: {class_id: "classname"}
+        for box in result.boxes:
+            x1, y1, x2, y2 = map(int, box.xyxy[0].tolist())
+            label_idx = int(box.cls.item())
+            confidence = float(box.conf.item())
+            label_name = names.get(label_idx, f"Class_{label_idx}")
+            boxes_info.append({
+                "bbox": [x1, y1, x2, y2],
+                "yolo_class": label_name,  # directly from YOLO model
+                "confidence": confidence
+            })
+    return boxes_info
+
+# --------------------
+# OCR HELPERS
+# --------------------
+
+def crop_and_ocr(image, boxes, lang="tam", pad=10, min_text_len=5):
+    results = []
+    for b in boxes:
+        x1, y1, x2, y2 = b["bbox"]
+        x1 = max(0, x1 - pad)
+        y1 = max(0, y1 - pad)
+        x2 = min(image.width, x2 + pad)
+        y2 = min(image.height, y2 + pad)
+
+        crop = image.crop((x1, y1, x2, y2))
+        ocr_text = pytesseract.image_to_string(crop, lang = lang, config = "--psm 4 --oem 1").strip()
+
+        # Decide final block type
+        block_type = b["yolo_class"]
+
+        # If YOLO predicted Picture/Figure but OCR has meaningful text, override to Text
+        if block_type.lower() in ["picture", "figure", "image"] and len(ocr_text) > min_text_len:
+            block_type = "Text"
+
+        results.append({
+            "block_type": block_type,
+            "bbox": [x1, y1, x2, y2],
+            "ocr_text": ocr_text,
+            "yolo_confidence": b["confidence"]
+        })
+    return results
+
+
+
+# --------------------
+# MAIN PIPELINE
+# --------------------
+
+def process_folder(model, folder, lang):
+    folder_results = {}
+    for file in os.listdir(folder):
+        if not file.lower().endswith(('.png', '.jpg', '.jpeg', '.tif')):
+            continue
+
+        img_path = os.path.join(folder, file)
+        pil_img = Image.open(img_path).convert("RGB")
+
+        # 1) YOLO layout detection
+        raw_results = perform_prediction(pil_img, model)
+
+        # 2) Extract YOLO bounding boxes
+        boxes = extract_bboxes(raw_results)
+
+        # 3) Run OCR per detected block
+        ocr_results = crop_and_ocr(pil_img, boxes, lang)
+
+        folder_results[file] = {
+            "language": lang,
+            "original_size": [pil_img.width, pil_img.height],
+            "blocks": ocr_results
+        }
+
+    return folder_results
+
+def main():
+    # Load YOLO model
+    model = YOLO(YOLO_MODEL_PATH)
+
+    all_results = {}
+    for folder, lang in LANGUAGE_FOLDERS.items():
+        if not os.path.exists(folder):
+            print(f"Folder {folder} not found, skipping.")
+            continue
+
+        print(f"🔹 Processing {folder} (lang={lang})")
+        folder_results = process_folder(model, folder, lang)
+        all_results.update(folder_results)
+
+    # Save results
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(all_results, f, ensure_ascii=False, indent=2)
+
+    print(f"Pipeline completed. Results saved to {OUTPUT_FILE}")
+
+if __name__ == "__main__":
+    main()
