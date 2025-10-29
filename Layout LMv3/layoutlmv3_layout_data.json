@@ -1,0 +1,2147 @@
+[
+    {
+        "category": "TEXT",
+        "text": "If",
+        "bbox": [
+            499,
+            103,
+            512,
+            117
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "he",
+        "bbox": [
+            521,
+            103,
+            543,
+            117
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "went",
+        "bbox": [
+            553,
+            104,
+            598,
+            117
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "too",
+        "bbox": [
+            609,
+            105,
+            637,
+            117
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "far",
+        "bbox": [
+            647,
+            103,
+            674,
+            117
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "away,",
+        "bbox": [
+            683,
+            107,
+            735,
+            122
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "the",
+        "bbox": [
+            465,
+            131,
+            494,
+            145
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "mother",
+        "bbox": [
+            505,
+            131,
+            573,
+            145
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "tiger",
+        "bbox": [
+            583,
+            132,
+            625,
+            150
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "called",
+        "bbox": [
+            635,
+            131,
+            690,
+            145
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "him",
+        "bbox": [
+            701,
+            131,
+            737,
+            145
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "with",
+        "bbox": [
+            464,
+            158,
+            504,
+            172
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "a",
+        "bbox": [
+            514,
+            163,
+            524,
+            173
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "low,",
+        "bbox": [
+            533,
+            158,
+            569,
+            174
+        ],
+        "confidence": 0.93
+    },
+    {
+        "category": "TEXT",
+        "text": "quict",
+        "bbox": [
+            580,
+            159,
+            627,
+            177
+        ],
+        "confidence": 0.92
+    },
+    {
+        "category": "TEXT",
+        "text": "grunt.",
+        "bbox": [
+            635,
+            159,
+            692,
+            177
+        ],
+        "confidence": 0.93
+    },
+    {
+        "category": "TEXT",
+        "text": "The",
+        "bbox": [
+            701,
+            158,
+            736,
+            173
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "tiger",
+        "bbox": [
+            465,
+            187,
+            507,
+            205
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "cub",
+        "bbox": [
+            515,
+            186,
+            549,
+            200
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "came",
+        "bbox": [
+            558,
+            190,
+            606,
+            200
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "back,",
+        "bbox": [
+            615,
+            186,
+            665,
+            201
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "but",
+        "bbox": [
+            674,
+            186,
+            706,
+            200
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "he",
+        "bbox": [
+            715,
+            186,
+            737,
+            200
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "did",
+        "bbox": [
+            465,
+            213,
+            493,
+            228
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "not",
+        "bbox": [
+            503,
+            214,
+            533,
+            228
+        ],
+        "confidence": 0.93
+    },
+    {
+        "category": "TEXT",
+        "text": "like",
+        "bbox": [
+            542,
+            213,
+            574,
+            228
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "to",
+        "bbox": [
+            584,
+            215,
+            601,
+            228
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "stay",
+        "bbox": [
+            611,
+            215,
+            650,
+            232
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "near",
+        "bbox": [
+            658,
+            218,
+            700,
+            228
+        ],
+        "confidence": 0.9
+    },
+    {
+        "category": "TEXT",
+        "text": "his",
+        "bbox": [
+            709,
+            213,
+            737,
+            228
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "mother",
+        "bbox": [
+            465,
+            241,
+            533,
+            255
+        ],
+        "confidence": 0.88
+    },
+    {
+        "category": "TEXT",
+        "text": "in",
+        "bbox": [
+            536,
+            242,
+            555,
+            255
+        ],
+        "confidence": 0.88
+    },
+    {
+        "category": "TEXT",
+        "text": "the",
+        "bbox": [
+            560,
+            237,
+            585,
+            264
+        ],
+        "confidence": 0.94
+    },
+    {
+        "category": "TEXT",
+        "text": "jungle",
+        "bbox": [
+            593,
+            241,
+            648,
+            260
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "at",
+        "bbox": [
+            655,
+            243,
+            673,
+            255
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "night.",
+        "bbox": [
+            677,
+            241,
+            731,
+            260
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "One",
+        "bbox": [
+            499,
+            271,
+            536,
+            285
+        ],
+        "confidence": 0.93
+    },
+    {
+        "category": "TEXT",
+        "text": "night",
+        "bbox": [
+            555,
+            271,
+            603,
+            289
+        ],
+        "confidence": 0.93
+    },
+    {
+        "category": "TEXT",
+        "text": "the",
+        "bbox": [
+            622,
+            271,
+            651,
+            285
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "mother",
+        "bbox": [
+            669,
+            271,
+            737,
+            285
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "tiger",
+        "bbox": [
+            466,
+            299,
+            507,
+            317
+        ],
+        "confidence": 0.65
+    },
+    {
+        "category": "TEXT",
+        "text": "was",
+        "bbox": [
+            511,
+            303,
+            547,
+            312
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "tired",
+        "bbox": [
+            554,
+            298,
+            595,
+            312
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "and",
+        "bbox": [
+            602,
+            298,
+            636,
+            312
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "closed",
+        "bbox": [
+            642,
+            298,
+            700,
+            312
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "her",
+        "bbox": [
+            706,
+            298,
+            737,
+            312
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "eyes.",
+        "bbox": [
+            465,
+            330,
+            509,
+            344
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "The",
+        "bbox": [
+            515,
+            326,
+            551,
+            340
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "tiger",
+        "bbox": [
+            556,
+            327,
+            599,
+            344
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "cub",
+        "bbox": [
+            603,
+            326,
+            638,
+            340
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "saw",
+        "bbox": [
+            644,
+            330,
+            680,
+            340
+        ],
+        "confidence": 0.94
+    },
+    {
+        "category": "TEXT",
+        "text": "a",
+        "bbox": [
+            685,
+            330,
+            694,
+            340
+        ],
+        "confidence": 0.94
+    },
+    {
+        "category": "TEXT",
+        "text": "tiny",
+        "bbox": [
+            701,
+            327,
+            737,
+            344
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "frog,",
+        "bbox": [
+            466,
+            353,
+            508,
+            372
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "hopping",
+        "bbox": [
+            530,
+            353,
+            612,
+            372
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "along",
+        "bbox": [
+            632,
+            353,
+            686,
+            372
+        ],
+        "confidence": 0.92
+    },
+    {
+        "category": "TEXT",
+        "text": "the",
+        "bbox": [
+            707,
+            353,
+            737,
+            367
+        ],
+        "confidence": 0.92
+    },
+    {
+        "category": "TEXT",
+        "text": "ground.",
+        "bbox": [
+            465,
+            381,
+            547,
+            399
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "The",
+        "bbox": [
+            569,
+            380,
+            608,
+            395
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "tiger",
+        "bbox": [
+            628,
+            382,
+            678,
+            399
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "cub",
+        "bbox": [
+            699,
+            381,
+            736,
+            395
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "pounced,",
+        "bbox": [
+            465,
+            408,
+            550,
+            427
+        ],
+        "confidence": 0.89
+    },
+    {
+        "category": "TEXT",
+        "text": "but",
+        "bbox": [
+            556,
+            408,
+            588,
+            422
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "the",
+        "bbox": [
+            593,
+            408,
+            622,
+            422
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "frog",
+        "bbox": [
+            627,
+            408,
+            663,
+            427
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "hopped",
+        "bbox": [
+            667,
+            408,
+            736,
+            427
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "away.",
+        "bbox": [
+            465,
+            440,
+            517,
+            454
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "He",
+        "bbox": [
+            524,
+            436,
+            549,
+            450
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "chased",
+        "bbox": [
+            554,
+            436,
+            619,
+            450
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "the",
+        "bbox": [
+            625,
+            436,
+            655,
+            450
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "frog",
+        "bbox": [
+            660,
+            435,
+            697,
+            455
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "and",
+        "bbox": [
+            701,
+            436,
+            737,
+            450
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "caught",
+        "bbox": [
+            460,
+            463,
+            525,
+            482
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "it,",
+        "bbox": [
+            531,
+            465,
+            548,
+            479
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "and",
+        "bbox": [
+            555,
+            463,
+            590,
+            478
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "turned",
+        "bbox": [
+            596,
+            463,
+            660,
+            478
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "to",
+        "bbox": [
+            665,
+            464,
+            683,
+            478
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "show",
+        "bbox": [
+            689,
+            463,
+            738,
+            478
+        ],
+        "confidence": 0.91
+    },
+    {
+        "category": "TEXT",
+        "text": "his",
+        "bbox": [
+            137,
+            491,
+            165,
+            505
+        ],
+        "confidence": 0.94
+    },
+    {
+        "category": "TEXT",
+        "text": "mother.",
+        "bbox": [
+            175,
+            491,
+            246,
+            505
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "But",
+        "bbox": [
+            256,
+            492,
+            292,
+            505
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "she",
+        "bbox": [
+            301,
+            491,
+            332,
+            505
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "was",
+        "bbox": [
+            341,
+            495,
+            377,
+            505
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "not",
+        "bbox": [
+            386,
+            492,
+            417,
+            505
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "in",
+        "bbox": [
+            426,
+            492,
+            444,
+            505
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "sight.",
+        "bbox": [
+            454,
+            491,
+            504,
+            510
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "Instead",
+        "bbox": [
+            515,
+            491,
+            584,
+            505
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "he",
+        "bbox": [
+            594,
+            491,
+            616,
+            505
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "saw",
+        "bbox": [
+            626,
+            495,
+            662,
+            505
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "a",
+        "bbox": [
+            671,
+            495,
+            681,
+            505
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "bigger",
+        "bbox": [
+            137,
+            518,
+            195,
+            537
+        ],
+        "confidence": 0.93
+    },
+    {
+        "category": "TEXT",
+        "text": "than",
+        "bbox": [
+            199,
+            518,
+            242,
+            533
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "his",
+        "bbox": [
+            247,
+            518,
+            275,
+            533
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "mother,",
+        "bbox": [
+            280,
+            519,
+            351,
+            533
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "near",
+        "bbox": [
+            356,
+            523,
+            399,
+            533
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "him",
+        "bbox": [
+            403,
+            519,
+            439,
+            533
+        ],
+        "confidence": 0.9
+    },
+    {
+        "category": "TEXT",
+        "text": "in",
+        "bbox": [
+            444,
+            519,
+            461,
+            533
+        ],
+        "confidence": 0.9
+    },
+    {
+        "category": "TEXT",
+        "text": "the",
+        "bbox": [
+            466,
+            519,
+            495,
+            533
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "jungle.",
+        "bbox": [
+            497,
+            518,
+            562,
+            537
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "The",
+        "bbox": [
+            171,
+            548,
+            206,
+            562
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "tiger's",
+        "bbox": [
+            212,
+            548,
+            268,
+            567
+        ],
+        "confidence": 0.91
+    },
+    {
+        "category": "TEXT",
+        "text": "green",
+        "bbox": [
+            275,
+            551,
+            326,
+            567
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "eyes",
+        "bbox": [
+            333,
+            552,
+            373,
+            566
+        ],
+        "confidence": 0.87
+    },
+    {
+        "category": "TEXT",
+        "text": "glistened",
+        "bbox": [
+            380,
+            548,
+            464,
+            567
+        ],
+        "confidence": 0.92
+    },
+    {
+        "category": "TEXT",
+        "text": "as",
+        "bbox": [
+            471,
+            552,
+            491,
+            562
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "he",
+        "bbox": [
+            498,
+            548,
+            520,
+            562
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "watched",
+        "bbox": [
+            526,
+            548,
+            605,
+            562
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "the",
+        "bbox": [
+            611,
+            548,
+            641,
+            562
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "tiger",
+        "bbox": [
+            648,
+            549,
+            690,
+            567
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "cub.",
+        "bbox": [
+            697,
+            548,
+            735,
+            562
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "The",
+        "bbox": [
+            137,
+            575,
+            172,
+            590
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "tiger",
+        "bbox": [
+            177,
+            576,
+            219,
+            594
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "cub",
+        "bbox": [
+            224,
+            575,
+            258,
+            590
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "was",
+        "bbox": [
+            263,
+            580,
+            299,
+            590
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "frightened.",
+        "bbox": [
+            305,
+            575,
+            406,
+            594
+        ],
+        "confidence": 0.94
+    },
+    {
+        "category": "TEXT",
+        "text": "He",
+        "bbox": [
+            412,
+            576,
+            437,
+            590
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "could",
+        "bbox": [
+            442,
+            575,
+            494,
+            590
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "not",
+        "bbox": [
+            499,
+            576,
+            529,
+            590
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "hide",
+        "bbox": [
+            535,
+            575,
+            574,
+            590
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "or",
+        "bbox": [
+            580,
+            580,
+            599,
+            590
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "run.",
+        "bbox": [
+            604,
+            580,
+            642,
+            590
+        ],
+        "confidence": 0.93
+    },
+    {
+        "category": "TEXT",
+        "text": "He",
+        "bbox": [
+            649,
+            576,
+            674,
+            590
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "let",
+        "bbox": [
+            679,
+            575,
+            702,
+            590
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "the",
+        "bbox": [
+            708,
+            575,
+            737,
+            590
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "frog",
+        "bbox": [
+            137,
+            602,
+            174,
+            622
+        ],
+        "confidence": 0.84
+    },
+    {
+        "category": "TEXT",
+        "text": "hop",
+        "bbox": [
+            178,
+            603,
+            212,
+            621
+        ],
+        "confidence": 0.84
+    },
+    {
+        "category": "TEXT",
+        "text": "away.",
+        "bbox": [
+            217,
+            607,
+            269,
+            622
+        ],
+        "confidence": 0.94
+    },
+    {
+        "category": "TEXT",
+        "text": "The",
+        "bbox": [
+            274,
+            603,
+            310,
+            617
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "tiger",
+        "bbox": [
+            314,
+            604,
+            356,
+            622
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "crept",
+        "bbox": [
+            360,
+            603,
+            408,
+            621
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "up",
+        "bbox": [
+            413,
+            607,
+            437,
+            621
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "closer",
+        "bbox": [
+            442,
+            603,
+            497,
+            617
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "to",
+        "bbox": [
+            501,
+            604,
+            518,
+            617
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "the",
+        "bbox": [
+            523,
+            603,
+            552,
+            617
+        ],
+        "confidence": 0.94
+    },
+    {
+        "category": "TEXT",
+        "text": "little",
+        "bbox": [
+            556,
+            603,
+            598,
+            617
+        ],
+        "confidence": 0.94
+    },
+    {
+        "category": "TEXT",
+        "text": "tiger",
+        "bbox": [
+            603,
+            604,
+            645,
+            622
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "cub.",
+        "bbox": [
+            649,
+            603,
+            688,
+            617
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "But",
+        "bbox": [
+            172,
+            633,
+            210,
+            647
+        ],
+        "confidence": 0.92
+    },
+    {
+        "category": "TEXT",
+        "text": "a",
+        "bbox": [
+            232,
+            637,
+            242,
+            647
+        ],
+        "confidence": 0.93
+    },
+    {
+        "category": "TEXT",
+        "text": "roar",
+        "bbox": [
+            263,
+            637,
+            309,
+            647
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "filled",
+        "bbox": [
+            139,
+            660,
+            182,
+            674
+        ],
+        "confidence": 0.93
+    },
+    {
+        "category": "TEXT",
+        "text": "the",
+        "bbox": [
+            194,
+            660,
+            222,
+            674
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "jungle,",
+        "bbox": [
+            228,
+            660,
+            294,
+            679
+        ],
+        "confidence": 0.91
+    },
+    {
+        "category": "TEXT",
+        "text": "the",
+        "bbox": [
+            138,
+            688,
+            167,
+            702
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "roar",
+        "bbox": [
+            178,
+            692,
+            217,
+            702
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "of",
+        "bbox": [
+            228,
+            688,
+            247,
+            702
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "the",
+        "bbox": [
+            256,
+            688,
+            285,
+            701
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "mother",
+        "bbox": [
+            138,
+            715,
+            208,
+            729
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "tiger!",
+        "bbox": [
+            229,
+            715,
+            276,
+            733
+        ],
+        "confidence": 0.88
+    },
+    {
+        "category": "TEXT",
+        "text": "She",
+        "bbox": [
+            138,
+            742,
+            172,
+            757
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "faced",
+        "bbox": [
+            184,
+            742,
+            232,
+            757
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "the",
+        "bbox": [
+            244,
+            742,
+            274,
+            757
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "other",
+        "bbox": [
+            138,
+            770,
+            187,
+            784
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "tiger",
+        "bbox": [
+            192,
+            772,
+            233,
+            789
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "and",
+        "bbox": [
+            238,
+            770,
+            273,
+            784
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "he",
+        "bbox": [
+            138,
+            798,
+            160,
+            812
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "went",
+        "bbox": [
+            167,
+            799,
+            212,
+            812
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "away.",
+        "bbox": [
+            219,
+            802,
+            272,
+            816
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "The",
+        "bbox": [
+            137,
+            825,
+            176,
+            839
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "mother",
+        "bbox": [
+            198,
+            825,
+            277,
+            839
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "tiger",
+        "bbox": [
+            137,
+            854,
+            181,
+            872
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "liked",
+        "bbox": [
+            200,
+            853,
+            245,
+            867
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "to",
+        "bbox": [
+            265,
+            854,
+            283,
+            867
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "roar,",
+        "bbox": [
+            137,
+            885,
+            180,
+            896
+        ],
+        "confidence": 0.92
+    },
+    {
+        "category": "TEXT",
+        "text": "a",
+        "bbox": [
+            190,
+            885,
+            201,
+            895
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "loud,",
+        "bbox": [
+            209,
+            880,
+            255,
+            896
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "big",
+        "bbox": [
+            265,
+            880,
+            293,
+            899
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "tiger",
+        "bbox": [
+            137,
+            909,
+            180,
+            927
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "roar,",
+        "bbox": [
+            192,
+            912,
+            234,
+            923
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "to",
+        "bbox": [
+            248,
+            910,
+            265,
+            922
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "tell",
+        "bbox": [
+            278,
+            908,
+            307,
+            922
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "all",
+        "bbox": [
+            138,
+            936,
+            160,
+            950
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "the",
+        "bbox": [
+            169,
+            936,
+            198,
+            950
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "other",
+        "bbox": [
+            207,
+            936,
+            256,
+            950
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "animals",
+        "bbox": [
+            265,
+            936,
+            339,
+            950
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "in",
+        "bbox": [
+            348,
+            936,
+            365,
+            950
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "the",
+        "bbox": [
+            374,
+            936,
+            403,
+            950
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "jungle",
+        "bbox": [
+            410,
+            936,
+            470,
+            954
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "that",
+        "bbox": [
+            478,
+            936,
+            517,
+            950
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "she",
+        "bbox": [
+            526,
+            936,
+            558,
+            950
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "was",
+        "bbox": [
+            566,
+            940,
+            602,
+            950
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "there.",
+        "bbox": [
+            611,
+            936,
+            664,
+            950
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "All",
+        "bbox": [
+            674,
+            936,
+            699,
+            950
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "the",
+        "bbox": [
+            708,
+            936,
+            736,
+            950
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "other",
+        "bbox": [
+            138,
+            963,
+            187,
+            977
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "animals",
+        "bbox": [
+            192,
+            963,
+            265,
+            977
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "in",
+        "bbox": [
+            270,
+            964,
+            289,
+            977
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "the",
+        "bbox": [
+            293,
+            963,
+            319,
+            977
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "jungle",
+        "bbox": [
+            327,
+            963,
+            382,
+            982
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "kept",
+        "bbox": [
+            389,
+            963,
+            430,
+            982
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "far.",
+        "bbox": [
+            434,
+            962,
+            463,
+            977
+        ],
+        "confidence": 0.92
+    },
+    {
+        "category": "TEXT",
+        "text": "far",
+        "bbox": [
+            469,
+            962,
+            495,
+            977
+        ],
+        "confidence": 0.95
+    },
+    {
+        "category": "TEXT",
+        "text": "away.",
+        "bbox": [
+            499,
+            967,
+            551,
+            982
+        ],
+        "confidence": 0.93
+    },
+    {
+        "category": "TEXT",
+        "text": "70",
+        "bbox": [
+            428,
+            1004,
+            447,
+            1015
+        ],
+        "confidence": 0.96
+    },
+    {
+        "category": "TEXT",
+        "text": "2018-20",
+        "bbox": [
+            405,
+            1102,
+            445,
+            1110
+        ],
+        "confidence": 0.63
+    }
+]

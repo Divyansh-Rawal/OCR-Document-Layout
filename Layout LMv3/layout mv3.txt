@@ -1,0 +1,86 @@
+import torch
+from transformers import LayoutLMv3Processor, LayoutLMv3ForTokenClassification
+from PIL import Image, ImageDraw
+import pytesseract
+import json
+import os
+
+# ======== CONFIGURATION ========
+IMAGE_PATH = r"D:\OCR session\pic 43.png"
+OUTPUT_IMAGE = "layoutlmv3_layout.jpg"
+OUTPUT_JSON = "layoutlmv3_layout_data.json"
+MODEL_NAME = "microsoft/layoutlmv3-base"
+# ===============================
+
+def classify_box(bbox, text, img_height):
+    """Heuristic classification of layout region."""
+    y_center = (bbox[1] + bbox[3]) / 2
+    height = bbox[3] - bbox[1]
+
+    if y_center < img_height * 0.25 and len(text.split()) > 1:
+        return "HEADING"
+    elif len(text.strip()) == 0 or height > img_height * 0.3:
+        return "PICTURE"
+    else:
+        return "TEXT"
+
+def run_layout_classification(image_path, output_image, output_json):
+    image = Image.open(image_path).convert("RGB")
+    width, height = image.size
+
+    # Load model + processor
+    processor = LayoutLMv3Processor.from_pretrained(MODEL_NAME)
+    model = LayoutLMv3ForTokenClassification.from_pretrained(MODEL_NAME)
+
+    # Encode + inference (not used for labels directly here)
+    encoding = processor(image, return_tensors="pt")
+    with torch.no_grad():
+        outputs = model(**encoding)
+
+    # OCR to get text boxes
+    ocr_data = pytesseract.image_to_data(image, output_type=pytesseract.Output.DICT)
+    draw = ImageDraw.Draw(image)
+    layout_data = []
+
+    print("\n Detected layout regions:\n")
+
+    for i, text in enumerate(ocr_data["text"]):
+        if not text.strip():
+            continue
+        conf = int(ocr_data["conf"][i])
+        if conf < 60:  # skip low confidence
+            continue
+
+        x, y, w, h = ocr_data["left"][i], ocr_data["top"][i], ocr_data["width"][i], ocr_data["height"][i]
+        bbox = [x, y, x + w, y + h]
+        category = classify_box(bbox, text, height)
+
+        color = {"HEADING": "red", "TEXT": "blue", "PICTURE": "green"}[category]
+        draw.rectangle(bbox, outline=color, width=2)
+        draw.text((x, y - 10), category, fill=color)
+
+        layout_data.append({
+            "category": category,
+            "text": text,
+            "bbox": bbox,
+            "confidence": conf / 100.0
+        })
+
+        print(f"{category}: '{text}' ({x}, {y}, {x+w}, {y+h}) | conf={conf}")
+
+    # Save visualization
+    image.save(output_image)
+    print(f"\n Saved classified layout visualization → {output_image}")
+
+    # Save JSON file
+    with open(output_json, "w", encoding="utf-8") as f:
+        json.dump(layout_data, f, indent=4, ensure_ascii=False)
+    print(f" Saved layout data JSON → {output_json}")
+
+    return layout_data
+
+if __name__ == "__main__":
+    if not os.path.exists(IMAGE_PATH):
+        print(f" Image not found at {IMAGE_PATH}")
+    else:
+        data = run_layout_classification(IMAGE_PATH, OUTPUT_IMAGE, OUTPUT_JSON)
