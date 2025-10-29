@@ -14,10 +14,23 @@ import numpy as np
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 LANGUAGE_FOLDERS = {
-    r"D:\OCR\Input OCR\Input_hin": {"lang": "hin", "output": "OCR_hi.json"},
+    r"D:\OCR\Input OCR\Input_hindi": {"lang": "hin", "output": "OCR_hindi.json"},
+    r"D:\OCR\Input OCR\Input_marathi": {"lang": "mar", "output": "OCR_marathi.json"},
+    r"D:\OCR\Input OCR\Input_beng": {"lang": "ben", "output": "OCR_bengali.json"},
+    r"D:\OCR\Input OCR\Punj_scanned": {"lang": "pan", "output": "OCR_punj_scan.json"},
+    r"D:\OCR\Input OCR\Tamil_scanned": {"lang": "tam", "output": "OCR_tamil_scan.json"},
+    r"D:\OCR\Input OCR\In_tamil": {"lang": "tam", "output": "OCR_tamil.json"},
+    r"D:\OCR\Input OCR\In_guj": {"lang": "guj", "output": "OCR_gujarati.json"},
+    r"D:\OCR\Input OCR\Beng_scanned": {"lang": "ben", "output": "OCR_beng_scan.json"},
+    r"D:\OCR\Input OCR\Assm_scanned": {"lang": "asm", "output": "OCR_asm_scan.json"},
+    r"D:\OCR\Input OCR\In_assm": {"lang": "asm", "output": "OCR_assamese.json"},
+    r"D:\OCR\Input OCR\In_Punj": {"lang": "pan", "output": "OCR_punjabi.json"},
+    r"D:\OCR\Input OCR\In_kan": {"lang": "kan", "output": "OCR_kannada.json"},
+    r"D:\OCR\Input OCR\Input_Telgu": {"lang": "tel", "output": "OCR_telgu.json"}
     
-    # Add more folders if needed for hin, mar, guj, kan, tel, tam
+    # Add more folders as needed
 }
+
 
 YOLO_MODEL_PATH = r"D:\OCR\Pipeline\yolov12l-doclaynet.pt"
 
@@ -26,35 +39,80 @@ YOLO_MODEL_PATH = r"D:\OCR\Pipeline\yolov12l-doclaynet.pt"
 # --------------------
 
 COMMON_FIXES = {
+  
     "ben": {
         "শুখাচ্জী": "মুখার্জী",
         "ভরট": "ভরাট",
         "ভর্জরত": "জর্জরিত",
+        "ভাারত": "ভারত",
+        "সरकार": "সরকার",
+        "সकूल": "স্কুল",
+        "সমाচার": "সমাচার",
     },
+
     "hin": {
-        "भाा": "भारत",
         "िकए": "किए",
         "हैै": "है",
+        "सररकार": "सरकार",
+        "समााचार": "समाचार",
+        "राष्ट्": "राष्ट्र",
+        "विकासस": "विकास",
     },
+
     "mar": {
         "शहरर": "शहर",
         "सररकार": "सरकार",
+        "भारर": "भारत",
+        "महााराष्ट्र": "महाराष्ट्र",
+        "प्रभुतवव": "प्रभुत्व",
     },
+
     "guj": {
         "ભારર": "ભારત",
         "સरકારર": "સરકાર",
+        "વિकાસસ": "વિકાસ",
+        "ભાષાા": "ભાષા",
+        "પ્રજासत्ताकक": "પ્રજાસત્તાક",
     },
-    "kan": {
-        "ಕರರ": "ಕರ",
-        "ಭಾರತತ": "ಭಾರತ",
+
+    "pan": {
+        "ਭਾਰਤਤ": "ਭਾਰਤ",
+        "ਸरਕਾਰर": "ਸਰਕਾਰ",
+        "ਪੰਜਾਬਬ": "ਪੰਜਾਬ",
+        "ਰਾਸਟਟਰੀ": "ਰਾਸ਼ਟਰੀ",
+        "ਵਿਕਾਸਸ": "ਵਿਕਾਸ",
     },
+
+    "tam": {
+        "இந்தத": "இந்த",
+        "சரरकार": "சரकार",
+        "மந्नிலம்": "மாநிலம்",
+        "தமிழल": "தமிழ்",
+        "இந்தியय": "இந்திய",
+    },
+
     "tel": {
         "భారతత": "భారత",
         "ప్రభుతవవ": "ప్రభుత్వ",
+        "రాజय्य": "రాజ్య",
+        "తెలగగु": "తెలుగు",
+        "వికాసస": "వికాస",
     },
-    "tam": {
-        "இந்தத": "இந்த",
-        "சரरकार": "சரਕਾਰ",
+
+    "kan": {
+        "ಕರರ": "ಕರ",
+        "ಭಾರತತ": "ಭಾರತ",
+        "ಸरಕಾರರ": "ಸರ್ಕಾರ",
+        "ರಾಜಯ್ಯ": "ರಾಜ್ಯ",
+        "ವಿಕಾಸಸ": "ವಿಕಾಸ",
+    },
+
+    "asm": {
+        "ভাৰতত": "ভাৰত",
+        "সরकारর": "সরকাৰ",
+        "অসমম": "অসম",
+        "সমাাচাৰ": "সমাচাৰ",
+        "উন্ননन": "উন্নয়ন",
     }
 }
 
